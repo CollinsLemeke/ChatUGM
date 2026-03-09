@@ -1,0 +1,12 @@
+transformers==4.45.0
+scikit-learn
+tokenizers>=0.20.0
+colorama
+gradio
+pandas
+pdfplumber
+python-docx
+python-pptx
+openpyxl
+torch
+huggingface_hub

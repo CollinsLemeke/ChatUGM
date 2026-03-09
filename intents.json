@@ -1,0 +1,768 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening", "what's up", "howdy", "hiya", "greetings", "sup", "yo"],
+      "responses": [
+        "Hello! 👋😊 Welcome to the University of Greater Manchester! I'm Axiom, your AI assistant. Whether you're curious about courses, fees, accommodation, or student life — I'm here to help! What would you like to know? 🎓",
+        "Hi there! 😄 Great to hear from you! I'm Axiom, the University of Greater Manchester's AI assistant. How can I make your day easier? Ask me anything! 🌟",
+        "Hey! 👋 Welcome! The University of Greater Manchester is #1 in the North West for Student Satisfaction — and we love welcoming new people! What can I help you with today? 🎓"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "later", "thanks bye", "thank you bye", "take care", "farewell", "cheers"],
+      "responses": [
+        "Goodbye! 👋😊 It was a pleasure chatting with you! Don't hesitate to come back anytime you have questions about the University of Greater Manchester. Best of luck on your journey! 🌟🎓",
+        "Take care! 😊 We hope to see you at the University of Greater Manchester soon. Feel free to visit https://greatermanchester.ac.uk/ to explore everything we offer! 🎓",
+        "See you soon! 👋 Remember, we're always here to help. Visit us at https://greatermanchester.ac.uk/ or drop us an email at enquiries@greatermanchester.ac.uk anytime! 🌟"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "thank you so much", "cheers", "appreciated", "that's helpful", "great help"],
+      "responses": [
+        "You're so welcome! 😊🌟 It's always a pleasure helping you. If you have more questions about the University of Greater Manchester, feel free to ask anytime! Visit us at https://greatermanchester.ac.uk/ 🎓",
+        "Happy to help! 😄 That's what I'm here for! Don't hesitate to reach out if you need anything else about UGM. 🌟"
+      ]
+    },
+    {
+      "tag": "about_university",
+      "patterns": ["talk about the university", "what is ugm", "about ugm", "university of greater manchester", "what kind of university", "about the university", "university overview", "who are you", "what is this university"],
+      "responses": [
+        "The University of Greater Manchester is a proud and forward-thinking institution based in Bolton 🎓✨. Here's what makes us special:\n\n🏆 **Ranked #1 in the North West** for Teaching Quality AND Student Satisfaction (The Times and Sunday Times Good University Guide)\n🏆 **6 consecutive years** ranked #1 for Student Satisfaction (Complete University Guide - North West)\n🏆 **Top 40 University in the UK** (The Guardian 2024)\n\n📚 We offer a unique **Block Teaching** approach — you study one subject at a time for focused, structured learning — no juggling loads of modules at once!\n\n🌍 We welcome students from all over the world and pride ourselves on a warm, inclusive, supportive community.\n\nExplore everything we offer at 👉 https://greatermanchester.ac.uk/ 😊"
+      ]
+    },
+
+    
+    {
+      "tag": "chatbot_creator",
+      "patterns": ["who created you", "who made you", "who developed you", "who built you", "who engineered you", "who designed you", "who is your creator", "who programmed you", "who coded you", "who is behind you", "who made this chatbot", "who created this bot", "who developed this chatbot", "your developer", "your creator", "who made axiom", "who is the developer"],
+      "responses": [
+        "I was created by **Collins Lemeke** 💻🎓, a student on the **MSc Artificial Intelligence (January 2025 cohort)** at the University of Greater Manchester!\n\nCollins is also the **co-founder of AI Nexus** 🤖 — the first and only AI society at UGM, dedicated to building future AI leaders who apply technology responsibly and sustainably.\n\nI'm proud to be a product of the talent and innovation coming out of UGM's AI programme! 🌟\n\nWant to know more about AI Nexus? Just ask! 😊"
+      ]
+    },
+    {
+      "tag": "ai_nexus",
+      "patterns": ["ai nexus", "what is ai nexus", "ai society", "artificial intelligence society", "ai club", "ai nexus society", "nexus society", "ai student society", "ai nexus ugm", "ai society ugm", "about the ai society"],
+      "responses": [
+        "🤖 **AI Nexus** is the first and only artificial intelligence society at the University of Greater Manchester! 🌟\n\n🎯 **Our Mission:**\nBuilding future AI leaders who apply technology responsibly and sustainably.\n\n👥 **Founded by:**\n• **Efe Stephen Ebieroma** — MSc Artificial Intelligence, January 2025 cohort\n• **Collins Lemeke** — MSc Artificial Intelligence, January 2025 cohort\n\n📅 **Founded:** December 2025\n\n🌟 **What We Do:**\n• 🎤 Events and talks with AI industry leaders\n• 🛠️ Hands-on workshops on AI tools and techniques\n• 🤝 Meet-ups and networking with industry collaborators\n• 💻 Hackathons to solve real-world problems with AI\n• 🌍 Building a community of responsible AI practitioners\n\nAI Nexus is open to all UGM students passionate about artificial intelligence — whether you're studying AI, Computer Science, or any other subject! Come join us and be part of the AI revolution at UGM! 🚀\n\nConnect with AI Nexus through the Bolton Students' Union at https://www.boltonsu.com/ 😊"
+      ]
+    },
+    {
+      "tag": "ai_nexus_founders",
+      "patterns": ["who founded ai nexus", "ai nexus founders", "who started ai nexus", "founders of ai nexus", "who runs ai nexus", "efe stephen", "collins lemeke", "efe ebieroma", "ai nexus co-founders", "who leads ai nexus"],
+      "responses": [
+        "AI Nexus was founded by two passionate MSc Artificial Intelligence students! 🤖🌟\n\n👤 **Efe Stephen Ebieroma**\nCo-founder of AI Nexus | MSc Artificial Intelligence, January 2025 cohort at the University of Greater Manchester.\n\n👤 **Collins Lemeke**\nCo-founder of AI Nexus | MSc Artificial Intelligence, January 2025 cohort at the University of Greater Manchester. Collins is also the creator and developer of this chatbot — Axiom! 💻\n\nTogether, they founded AI Nexus in **December 2025** with the vision of building future AI leaders who apply technology responsibly and sustainably. Their initiative made AI Nexus the **first and only AI society** at UGM! 🎓🚀\n\nTheir work includes organising events, workshops, hackathons, meet-ups and networking sessions with industry leaders and collaborators. 🌍"
+      ]
+    },
+
+    {
+      "tag": "bsc_artificial_intelligence",
+      "patterns": ["bsc artificial intelligence", "bsc ai", "undergraduate ai", "ai degree", "bachelor ai", "artificial intelligence undergraduate", "study ai undergraduate", "bsc hons artificial intelligence", "ai bachelor degree"],
+      "responses": [
+        "Here are the full details on our BSc (Hons) Artificial Intelligence! 🤖🎓😊\n\n💻 **BSc (Hons) Artificial Intelligence**\n📍 University of Greater Manchester | Full-time | 3 Years\n🔢 UCAS Code: W350 | UCAS Points: 104\n\n📋 **Course Overview:**\nAI is rapidly changing how we work and live. This degree offers vital knowledge and skills in key AI areas including machine learning, deep learning, computer vision and natural language processing.\n\n🏆 **Highlights:**\n• Computer Science courses are **5th in the UK for Student Satisfaction** (Complete University Guide 2026)\n• Work with tools like **Python, TensorFlow, PyTorch, OpenCV, GPT models, AWS and Azure**\n• Access to **Intel AI Academy** and **AWS Educate** resources\n• State-of-the-art AI labs with industry-leading technologies\n• Small class sizes with dedicated personal tutors\n• Assignments designed to mimic real industry AI pipelines\n\n📋 **Entry Requirements:**\n• **104 UCAS points** (A-levels, BTECs, T-levels accepted)\n• STEM/computing subjects preferred but any Level 3 accepted\n• Five GCSEs at grade 4/C or above including English and Maths\n• Non-traditional qualifications considered — diagnostic maths test and interview may apply\n• IELTS 6.0 (no less than 5.5 in any band) for international students\n\n💰 **Fees (2025/26):**\n• Home: £9,250/year (standard UK undergraduate fee)\n• Overseas: £13,750/year\n\n💼 **Career Opportunities:**\nMachine learning engineer, data scientist, computer vision specialist, business intelligence analyst, robotic scientist, research scientist — employers range from big-tech firms to ambitious start-ups across every sector!\n\n📌 **Also Available:**\n• BSc (Hons) AI **with Foundation Year** (4 years, 48 UCAS points entry)\n• BSc (Hons) AI **with Industrial Placement** (4 years)\n\n👉 Course page: https://greatermanchester.ac.uk/course/bsc-hons-artificial-intelligence-full-time-3-years-university-of-bolton/2025-26\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "msc_artificial_intelligence",
+      "patterns": ["msc artificial intelligence", "msc ai", "masters ai", "masters artificial intelligence", "postgraduate ai", "ai masters", "ai postgraduate", "msc ai ugm", "masters in ai", "postgrad ai course"],
+      "responses": [
+        "Here are the full details on our MSc Artificial Intelligence! 🤖🎓✨\n\n💻 **MSc Artificial Intelligence**\n📍 University of Greater Manchester | Full-time | 12 Months (September start)\n\n📋 **Course Overview:**\nAI could contribute over **$15 trillion to the global economy by 2030**. This MSc develops a breadth of knowledge and practical capability in AI methods and techniques — covering machine learning, deep learning, computer vision and natural language processing.\n\n🌟 **Key Features:**\n• Emphasis on working collaboratively with **industry partners**\n• Realistic coursework scenarios that prepare you for your postgraduate career\n• Build a **dissertation** showcasing your specialist AI skills\n• Develop technical proposals and management reports\n• Strong practical research aspects with hands-on laboratory work\n• Blended learning: face-to-face sessions, one-to-one support, online learning\n\n📋 **Entry Requirements:**\n• Honours degree (or equivalent) in computing/software engineering (minimum 2.2)\n• Or relevant professional experience in computing\n• IELTS 6.0 (no less than 5.5 in any band) for international students\n\n💰 **Fees (2025/26):**\n• Home: **£8,496**\n• Overseas: **£17,500**\n• Masters Bursaries available — check website for details!\n\n💼 **Career Opportunities:**\nMachine learning, data science, computer vision, business intelligence, robotic science, research science — across sectors including healthcare, finance, retail, manufacturing, education, energy and agriculture.\n\n📌 **Also Available:**\n• MSc AI: **Extended** (18 months, January start — Home: £5,664/year, Overseas: £17,500)\n• **MRes Artificial Intelligence** (12 months research degree — Home: £8,500, Overseas: £17,500)\n• **MRes Applied AI** (for those without computing background — Home: £8,500, Overseas: £17,500)\n\n👉 Course page: https://greatermanchester.ac.uk/course/msc-artificial-intelligence-full-time-12-months-university-of-bolton/2025-26\n👉 All CS courses: https://greatermanchester.ac.uk/subject-areas/computer-science 😊"
+      ]
+    },
+    {
+      "tag": "bsc_computer_science_detail",
+      "patterns": ["bsc computer science details", "about bsc computer science", "computer science degree details", "bsc computing details", "what is bsc computer science like", "bsc cs course info", "bsc computer science entry requirements"],
+      "responses": [
+        "Here are the full details on BSc (Hons) Computer Science! 💻🎓😊\n\n🖥️ **BSc (Hons) Computer Science**\n📍 University of Greater Manchester | Full-time: 3 Years | Part-time: 54 Months\n🔢 UCAS Points: 104\n\n📋 **Course Overview:**\nDevelop essential knowledge of computing and IT principles and practices. You'll study core computing disciplines with options to specialise in big data, AI, cloud technologies, NLP and information security. Part of a family including Software Engineering, AI and Cyber Security degrees.\n\n🏆 **Highlights:**\n• **5th in the UK for Student Satisfaction** in Computer Science (Complete University Guide 2026)\n• Learn from researchers in machine learning, computer vision, data science, bioinformatics and cyber security\n• Access to **Oracle Academy** and **AWS Educate**\n• Small class sizes with personalised interaction\n• Guest lecturers from Manchester's thriving digital hub\n\n📋 **Entry Requirements:**\n• **104 UCAS points** (A-levels, BTECs, T-levels)\n• STEM/computing subjects preferred\n• Five GCSEs grade 4/C+ including English and Maths\n• Diagnostic maths test and interview for non-standard applicants\n• IELTS 6.0 for international students\n\n💰 **Fees (2025/26):**\n• Home: £9,250/year (full-time) | £6,356/year (part-time)\n• Overseas: £13,750/year\n\n📌 **Also Available:**\n• BSc Computer Science **with Foundation Year** (4 years, 48 UCAS points)\n• BSc Computer Science **with Industrial Placement** (4 years)\n• BSc Computer Science **(Top-up)** (1 year, for FdSc/HND holders)\n• BSc **Computing** (3 years — broader programme with AI, ML, Cyber options)\n• BSc Computing **with Industrial Placement** (4 years)\n\n👉 Course page: https://greatermanchester.ac.uk/subject-areas/computer-science\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "bsc_cyber_security_detail",
+      "patterns": ["bsc cyber security details", "cyber security degree details", "about cyber security course", "cyber security entry requirements", "study cyber security", "cyber degree info", "hacking degree", "cyber security course info"],
+      "responses": [
+        "Here are the full details on BSc (Hons) Cyber Security! 🔒💻😊\n\n🛡️ **BSc (Hons) Cyber Security**\n📍 University of Greater Manchester | Full-time: 3 Years\n🔢 UCAS Points: 96\n\n📋 **Course Overview:**\nLearn to anticipate and combat cyber threats including hacking, theft, viruses and other forms of cyber attack. You'll design secure computer systems, develop your own security tools, perform risk assessments and implement security controls.\n\n🏆 **Highlights:**\n• The cyber security industry needs approximately **4 million additional professionals worldwide**\n• Develop technical skills in security defence techniques and counter-measures\n• Design and develop your own security tools for probing and defending systems\n• Guest lectures from industry professionals\n• Manchester is a thriving digital hub with specialist security firms\n\n📋 **Entry Requirements:**\n• **96 UCAS points** (A-levels, BTECs, T-levels)\n• STEM/computing subjects preferred\n• Five GCSEs grade 4/C+ including English and Maths\n• IELTS 6.0 for international students\n\n📌 **Also Available:**\n• BSc Cyber Security **with Foundation Year** (4 years, 48 UCAS points)\n• BSc Cyber Security **with Industrial Placement** (4 years)\n• BSc Cyber Security **(Top-up)** (1 year, for FdSc/HND holders)\n• **MSc Cloud and Network Security** (12 or 18 months postgrad)\n\n👉 Course page: https://greatermanchester.ac.uk/course/bsc-hons-cyber-security-full-time-3-years-university-of-bolton/2025-26\n👉 All CS courses: https://greatermanchester.ac.uk/subject-areas/computer-science 😊"
+      ]
+    },
+    {
+      "tag": "msc_software_engineering",
+      "patterns": ["msc software engineering", "software engineering masters", "masters software engineering", "postgraduate software engineering", "software engineering postgrad"],
+      "responses": [
+        "Here are the details on MSc Software Engineering! ⚙️💻😊\n\n🖥️ **MSc Software Engineering**\n📍 University of Greater Manchester | Full-time: 12 Months\n\n📋 **Course Overview:**\nDevelop advanced skills in software design, development and engineering practices. This MSc is ideal for computing graduates and professionals looking to advance their software engineering career.\n\n💰 **Fees (2025/26):**\n• Home: **£8,496**\n• Overseas: **£17,500**\n\n📋 **Entry Requirements:**\n• Honours degree in computing/software engineering (minimum 2.2) or equivalent experience\n• IELTS 6.0 for international students\n\n📌 **Also Available:**\n• MSc Software Engineering: **Extended** (18 months)\n• **BEng (Hons) Software Engineering** (undergraduate, 3 years)\n• BEng Software Engineering **with Foundation Year** (4 years)\n\n👉 All Computer Science courses: https://greatermanchester.ac.uk/subject-areas/computer-science\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "msc_cloud_network_security",
+      "patterns": ["msc cloud security", "cloud and network security", "network security masters", "cloud security masters", "msc network security", "cloud computing masters"],
+      "responses": [
+        "Here are the details on MSc Cloud and Network Security! ☁️🔒😊\n\n🛡️ **MSc Cloud and Network Security**\n📍 University of Greater Manchester | Full-time: 12 Months (also 18-month Extended option)\n\n📋 **Course Overview:**\nGain a deeper understanding of security and operations of computer systems. Ideal for graduates with a background in networking, system administration or cloud computing seeking leading technical or managerial roles in data-dependent organisations.\n\n🌟 **What You'll Study:**\n• Security issues affecting fixed and wireless networks\n• Solutions used to address security threats\n• Key employability skills: teamwork, time management, problem-solving\n\n💰 **Fees (2025/26):**\n• Home: **£8,496** (12 months) | **£5,664/year** (18 months)\n• Overseas: **£17,500**\n\n💼 **Career Opportunities:**\nNetwork engineering, telecommunications engineering, IT management, crime and computer forensics, senior managerial roles in IT sector.\n\n📌 **Also Available:**\n• MSc Cloud and Network Security: **Extended** (18 months)\n\n👉 All CS courses: https://greatermanchester.ac.uk/subject-areas/computer-science\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "msc_data_analytics",
+      "patterns": ["msc data analytics", "data analytics masters", "data science masters", "msc data science", "masters data analytics", "data analytics and technologies", "big data masters"],
+      "responses": [
+        "Here are the details on MSc Data Analytics and Technologies! 📊💻😊\n\n📈 **MSc Data Analytics and Technologies**\n📍 University of Greater Manchester | Full-time: 12 Months\n\n📋 **Course Overview:**\nDevelop essential skills to interrogate data, unlock vital insights and communicate discoveries. Covers digital marketing, web analytics, social media analytics, consumer psychology, business intelligence, SEO and online advertising.\n\n🌟 **Key Features:**\n• Extensive links with regional and national employers\n• Industry-based masterclasses and networking\n• Individual industry-based projects\n• Combines data analytics knowledge with technology solutions\n• Essential skills for business and leadership\n\n💰 **Fees (2025/26):**\n• Home: **£8,496**\n• Overseas: **£17,500**\n\n📌 **Related Programmes:**\n• MSc Data Analytics: **Extended** (18 months)\n• **MSc Business Analytics and Technologies** (12 months)\n• **MSc Health Analytics and Technologies** (12 months)\n\n📧 Programme Leader: Francis Morrissey — F.Morrissey@bolton.ac.uk | 📞 +44 (0)1204 903530\n\n👉 All CS courses: https://greatermanchester.ac.uk/subject-areas/computer-science\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "msc_robotics",
+      "patterns": ["msc robotics", "robotics masters", "robotics degree", "robotics programming", "automation masters", "msc robotics programming and automation", "study robotics"],
+      "responses": [
+        "Here are the details on MSc Robotics Programming and Automation! 🤖⚙️😊\n\n🦾 **MSc Robotics Programming and Automation**\n📍 University of Greater Manchester | Full-time: 12 Months\n\n📋 **Course Overview:**\nRobotic intelligence is transforming businesses through automation. Develop knowledge and practical capability in programming and robotics algorithms — covering machine learning, robotics process automation and professional practice.\n\n🌟 **Key Features:**\n• Design, build and manage automated systems through hands-on projects\n• Industry-collaborative curriculum with relevant industrial topics\n• Practical research aspects and laboratory work\n• Develop proposals, reports and a coursework portfolio\n\n📋 **Entry Requirements:**\n• Honours degree in computing/software engineering (minimum 2.2) or equivalent experience\n• IELTS 6.0 for international students\n\n💰 **Fees (2025/26):**\n• Home: **£8,496**\n• Overseas: **£17,500**\n\n💼 **Career Opportunities:**\nRobotics engineer, automation specialist, AI developer, process automation consultant — across manufacturing, healthcare, logistics and more.\n\n👉 Course page: https://greatermanchester.ac.uk/course/msc-robotics-programming-and-automation-full-time-12-months-university-of-bolton/2025-26\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "msc_business_analytics",
+      "patterns": ["msc business analytics", "business analytics masters", "business intelligence masters", "business analytics course", "business data analytics"],
+      "responses": [
+        "Here are the details on MSc Business Analytics and Technologies! 📊💼😊\n\n📈 **MSc Business Analytics and Technologies**\n📍 University of Greater Manchester | Full-time: 12 Months\n\n📋 **Course Overview:**\nImprove business performance through data mining, analysis and visualisation. Develop in-depth knowledge and practical capability in business analytics — **no prior programming expertise is assumed!**\n\n🌟 **Key Features:**\n• Develop essential computer programming and data analytics skills from scratch\n• Create data dashboards, graphs and visualisations\n• Analyse trends in consumer feedback and marketing effectiveness\n• Search engine optimisation and website analytics\n• Industry-focused, hands-on approach\n\n💰 **Fees (2025/26):**\n• Home: **£8,496**\n• Overseas: **£17,500**\n\n💼 **Career Opportunities:**\nBusiness analyst, data analyst, marketing researcher, business intelligence specialist — big data has intensified demand for professionals who can communicate insights to managers and stakeholders.\n\n📌 **Also Available:**\n• MSc Business Analytics: **Extended** (18 months)\n\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "msc_health_analytics",
+      "patterns": ["msc health analytics", "health analytics masters", "health data science", "healthcare analytics", "health analytics and technologies"],
+      "responses": [
+        "Here are the details on MSc Health Analytics and Technologies! 🏥📊😊\n\n📈 **MSc Health Analytics and Technologies**\n📍 University of Greater Manchester | Full-time: 12 Months\n\n📋 **Course Overview:**\nCombine data analytics with healthcare applications. Develop skills to analyse health data, unlock insights and improve healthcare outcomes using technology.\n\n💰 **Fees (2025/26):**\n• Home: **£8,496**\n• Overseas: **£17,500**\n\n📌 **Also Available:**\n• MSc Health Analytics: **Extended** (18 months)\n\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "mres_computing",
+      "patterns": ["mres computing", "mres ai", "mres artificial intelligence", "research degree computing", "masters by research computing", "mres applied ai", "computing research degree"],
+      "responses": [
+        "Here are the details on our MRes research degrees in Computing and AI! 🔬💻😊\n\n🔬 **MRes Computing / MRes Artificial Intelligence / MRes Applied AI**\n📍 University of Greater Manchester | Full-time: 12 Months\n\n📋 **Overview:**\nThese are full-time research degrees combining rigorous training in advanced research skills with personalised research projects. They're ideal preparation for a **PhD or Professional Doctorate**!\n\n🌟 **MRes Computing:**\n• Research-focused with industry collaboration\n• Staff from the **Centre of Intelligence of Things** with expertise in IoT, Applied ML, Software Engineering, Embedded Computing\n• Publication-centric approach to research\n\n🌟 **MRes Artificial Intelligence:**\n• Domain-specific AI expertise with cutting-edge research skills\n• Scaffolded learning approach\n• Collaborative practical research project\n\n🌟 **MRes Applied AI:**\n• For graduates **without** a computing background who want to apply AI to healthcare, finance, engineering, environmental science\n• Multidisciplinary research training\n\n📋 **Entry Requirements:**\n• **MRes Computing & MRes AI:** Honours degree in computing/software engineering (minimum 2.2) or degree + 2 years relevant experience\n• **MRes Applied AI:** Open to graduates without a computing background\n• IELTS 6.0 for international students\n\n💰 **Fees (2025/26):**\n• Home: **£8,500** | Overseas: **£17,500** (all three programmes)\n\n👉 Research programmes: https://greatermanchester.ac.uk/join-us/research-programmes\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "msc_logistics",
+      "patterns": ["msc logistics", "logistics masters", "supply chain management", "logistics degree", "msc supply chain", "logistics and supply chain", "supply chain masters"],
+      "responses": [
+        "Here are the details on MSc Logistics and Supply Chain Management! 📦🌍😊\n\n🚚 **MSc Logistics and Supply Chain Management**\n📍 University of Greater Manchester | Full-time: 12 Months (also 18-month January start)\n\n📋 **Course Overview:**\nDevelop skills that prepare you for the global marketplace. Build sought-after business acumen and in-demand skills covering zero carbon logistics, blockchain, data analysis, autonomous logistics and AI.\n\n🏆 **Accreditation:**\n• Accredited by the **Chartered Institute of Procurement and Supply (CIPS)** — after 3 years' experience you can apply for full MCIPS membership!\n• Seeking recognition from the **Chartered Institute of Logistics and Transport (CILT)**\n\n🌟 **Key Features:**\n• Over a decade of industry experience delivering supply chain programmes globally (Malaysia, Botswana, Zambia, Malawi)\n• Contemporary issues: zero carbon logistics, blockchain, autonomous logistics, AI\n• Lifelong learning skills, creativity and critical thinking\n\n💰 **Fees (2025/26):**\n• Home: **£8,496** (12 months) | **£5,664/year** (18 months)\n• Overseas: **£17,500**\n\n💼 **Career Opportunities:**\nSupply chain manager, logistics coordinator, procurement specialist, operations manager — across global businesses and organisations.\n\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "foundation_year_courses",
+      "patterns": ["foundation year", "foundation year courses", "courses with foundation year", "what is foundation year", "foundation degree", "foundation entry", "don't have enough ucas points"],
+      "responses": [
+        "Foundation Year courses are a brilliant way to start your degree journey! 🎓🌟😊\n\n📚 **Foundation Year at UGM:**\nIf you don't have the standard entry qualifications for direct entry, a **Foundation Year** gives you an excellent grounding in the fundamentals before progressing into your chosen degree. It's the first year of a 4-year programme.\n\n🌟 **Benefits:**\n• Lower entry requirements (typically **48 UCAS points**)\n• Builds your confidence and knowledge base\n• Seamless progression into Year 1 of your degree\n• Same supportive, small-class environment\n\n💻 **Computer Science Foundation Year Courses:**\n• BSc (Hons) Computer Science with Foundation Year (4 years)\n• BSc (Hons) Artificial Intelligence with Foundation Year (4 years)\n• BSc (Hons) Cyber Security with Foundation Year (4 years)\n• BSc (Hons) Software Engineering with Foundation Year (4 years)\n• BSc (Hons) Computing with Foundation Year (4 years)\n\n📋 Foundation years are available across many other subject areas too! Check individual course pages for specific foundation year options.\n\n👉 All courses: https://greatermanchester.ac.uk/courses\n👉 How to Apply: https://greatermanchester.ac.uk/join-us/how-to-apply-and-admissions 😊"
+      ]
+    },
+    {
+      "tag": "industrial_placement",
+      "patterns": ["industrial placement", "work placement", "year in industry", "sandwich year", "placement year", "internship", "industry placement", "placement courses"],
+      "responses": [
+        "Industrial Placement courses give you incredible real-world experience! 💼🎓😊\n\n🏢 **Industrial Placement at UGM:**\nSeveral of our degrees offer an **Industrial Placement year** between your second and final year — giving you real industry experience while earning your degree!\n\n🌟 **How It Works:**\n• 4-year programme (3 years study + 1 year placement)\n• Placement takes place between Year 2 and Final Year\n• The university supports you in finding a placement with a relevant company\n• Placement doesn't have to be local — could be anywhere in the UK!\n• Placement team helps with applications and interview skills\n\n💻 **Available With Industrial Placement:**\n• BSc (Hons) Computer Science with Industrial Placement\n• BSc (Hons) Computing with Industrial Placement\n• BSc (Hons) Cyber Security with Industrial Placement\n• BSc (Hons) Artificial Intelligence with Industrial Placement\n• BSc (Hons) Software Engineering with Industrial Placement\n\n💡 **Why Choose a Placement?**\n• Real-world work experience on your CV\n• Industry contacts and networking\n• Better understanding of career options\n• Many students receive job offers from their placement employer!\n\n👉 All courses: https://greatermanchester.ac.uk/courses\n👉 Careers: https://greatermanchester.ac.uk/join-us/careers-and-employability/ 😊"
+      ]
+    },
+    {
+      "tag": "top_up_degrees",
+      "patterns": ["top up", "top-up degree", "top up degree", "hnd top up", "foundation degree top up", "final year top up", "complete my degree"],
+      "responses": [
+        "Top-up degrees let you convert your HND or Foundation Degree into a full Honours degree! 🎓✨😊\n\n📋 **Top-Up Degrees at UGM:**\nIf you've already completed a Foundation Degree (FdSc) or Higher National Diploma (HND), our top-up programmes let you achieve a full BSc (Hons) in just **1 year**!\n\n🌟 **Entry Requirements:**\n• Completed FdSc or HND in a relevant subject\n• Or equivalent qualification with at least 120 credits at HE4 and 120 credits at HE5\n• Professional qualifications may also be considered\n\n💻 **Available Top-Up Degrees Include:**\n• BSc (Hons) Computer Science (Top-up)\n• BSc (Hons) Cyber Security (Top-up)\n• BSc (Hons) Computing (Top-up)\n• And more across other subject areas!\n\n💡 After completing your top-up, you can progress to a Masters degree — with a potential **£1,000 Alumni Loyalty Discount**!\n\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "degree_apprenticeship_computing",
+      "patterns": ["computing apprenticeship", "digital apprenticeship", "software engineering apprenticeship", "cyber security apprenticeship", "degree apprenticeship computing", "tech apprenticeship", "digital and technology solutions"],
+      "responses": [
+        "Computing Degree Apprenticeships let you earn while you learn tech skills! 💻💼😊\n\n🎓 **BSc (Hons) Digital and Technology Solutions (Degree Apprenticeship)**\n📍 University of Greater Manchester | Full-time: 3 Years\n\n📋 **Available Pathways:**\n• **Software Engineering** route\n• **Network Engineering** route\n• **Cyber Security** route\n\n🌟 **Key Features:**\n• Earn a salary while studying for a full BSc (Hons) degree\n• **No tuition fees** — funded by your employer and the Apprenticeship Levy\n• Build a portfolio of evidence from real projects at work\n• Programming languages, databases, design methodologies and project work\n• Strong industrial focus with essential business skills\n\n📋 **Entry Requirements:**\n• 104 UCAS points including a technology-related subject\n• Five GCSEs grade 4/C+ including English and Maths\n• Must be employed by a participating employer\n\n📧 **Apprenticeship Enquiries:** apprentices@bolton.ac.uk\n\n👉 Apprenticeships: https://greatermanchester.ac.uk/apprenticeships\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "msc_systems_engineering",
+      "patterns": ["msc systems engineering", "mechatronics masters", "engineering management masters", "systems engineering postgrad", "mechatronics degree", "electronics engineering masters"],
+      "responses": [
+        "Here are the details on MSc Systems Engineering and Engineering Management! ⚙️🎓😊\n\n🔧 **MSc Systems Engineering and Engineering Management**\n📍 University of Greater Manchester | Full-time: 18 Months (Double Award) | Part-time: 36 Months\n\n📋 **Available Pathways:**\n• **Mechatronics** emphasis\n• **Electronics** emphasis\n• **Mechanical Systems** emphasis\n\n🌟 **Key Features:**\n• Double Award postgraduate course\n• Meets professional institution standards in UK and Europe\n• Advanced AI techniques used in designing and controlling automated machinery\n• Digital signal processing in control applications\n• Total quality management in design, manufacture and project management\n• Contract negotiation, stakeholder management, procurement\n• Industry-based projects and work placements encouraged\n\n📋 **Entry Requirements:**\n• Relevant degree (or equivalent overseas qualification)\n• Relevant work experience considered\n• IELTS 6.0 for international students\n\n💰 **Fees:** Contact university for specific fee details.\n\n📌 **Also Available as Degree Apprenticeship Route**\n\n👉 Engineering: https://greatermanchester.ac.uk/subject-areas/engineering-motorsport-and-construction\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "postgraduate_fees_general",
+      "patterns": ["how much is masters", "postgraduate fees", "masters fees", "msc fees", "how much is a masters at ugm", "postgrad cost", "masters tuition"],
+      "responses": [
+        "Here's an overview of postgraduate fees at UGM! 💰🎓😊\n\n💷 **Typical Postgraduate Fees (2025/26):**\n\n📋 **Taught Masters (MSc/MA/MBA) — 12 Months:**\n• Home: **£8,496**\n• Overseas: **£17,500**\n\n📋 **Taught Masters — 18 Months (Extended/January Start):**\n• Home: **£5,664/year**\n• Overseas: **£17,500**\n\n📋 **Research Degrees (MRes):**\n• Home: **£8,500**\n• Overseas: **£17,500**\n\n💡 **Funding & Discounts:**\n• **Alumni Loyalty Discount** — £1,000 tuition fee waiver if you completed your undergraduate degree at UGM!\n• **Masters Bursaries** — check the website for current availability\n• Postgraduate loans available through Student Finance England\n• Student Support Fund for students in financial difficulty\n\n📧 **Postgraduate Funding Contact:**\n• Susie Collins: +44 (0)1204 903497\n• studentfunding@greatermanchester.ac.uk\n\n⚠️ Fees vary by programme — always check the specific course page for exact amounts.\n\n👉 Fees & Funding: https://greatermanchester.ac.uk/student-life/fees-and-funding\n👉 Postgraduate courses: https://greatermanchester.ac.uk/postgraduate-courses 😊"
+      ]
+    },
+    {
+      "tag": "undergraduate_fees_general",
+      "patterns": ["how much is undergraduate", "undergraduate fees", "bsc fees", "how much is a degree", "undergraduate tuition", "how much does a bachelors cost", "degree cost"],
+      "responses": [
+        "Here's an overview of undergraduate fees at UGM! 💰🎓😊\n\n💷 **Typical Undergraduate Fees (2025/26):**\n\n📋 **Full-time UK/Home Students:**\n• Standard fee: **£9,250 per year**\n• Fully covered by **Student Finance England Tuition Fee Loan** — no upfront payment needed!\n\n📋 **Full-time International Students:**\n• Typically **£13,750 per year** (varies by programme)\n• Payment via **Flywire** or **EasyTransfer** available\n\n📋 **Part-time UK Students:**\n• Fees vary — for example, BSc Computer Science part-time: **£6,356/year**\n• Part-time tuition fee loans available\n\n💡 **Financial Support:**\n• Maintenance Loan for living costs\n• Scholarships and bursaries available\n• Student Support Fund for hardship\n• Childcare Grant, Parents' Learning Allowance, Adult Dependants' Grant (means-tested)\n\n📧 **Student Funding Contact:**\nstudentfunding@bolton.ac.uk | 📞 01204 903733\n\n👉 Fees & Funding: https://greatermanchester.ac.uk/student-life/fees-and-funding\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "beng_software_engineering",
+      "patterns": ["software engineering degree", "beng software engineering", "study software engineering", "software engineering undergraduate", "software engineering course"],
+      "responses": [
+        "Here are the details on BEng (Hons) Software Engineering! ⚙️💻😊\n\n🖥️ **BEng (Hons) Software Engineering**\n📍 University of Greater Manchester | Full-time: 3 Years\n\n📋 **Course Overview:**\nDevelop essential software engineering skills including analysis, design, configuration, testing, deployment and support of computer software. Learn a range of programming languages and essential areas such as networks, databases, design methodologies and project work.\n\n🌟 **Key Features:**\n• Industry-focused curriculum with strong practical emphasis\n• Small class sizes with personalised teaching\n• Access to industry training resources\n• Guest lecturers from Manchester's digital hub\n\n📌 **Also Available:**\n• BEng Software Engineering **with Foundation Year** (4 years)\n• BEng Software Engineering **with Industrial Placement** (4 years)\n• **MSc Software Engineering** (12 months postgrad)\n\n👉 Computer Science: https://greatermanchester.ac.uk/subject-areas/computer-science\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "all_computer_science_courses",
+      "patterns": ["all computer science courses", "list all cs courses", "every computing course", "all computing degrees", "full list computer science", "what computer courses do you have", "all tech degrees"],
+      "responses": [
+        "Here's the full list of Computer Science courses at UGM! 💻📋😊\n\n🖥️ **Undergraduate Courses:**\n• BSc (Hons) Computer Science (3 years | with Foundation Year | with Industrial Placement | Top-up | Part-time)\n• BSc (Hons) Computing (3 years | with Foundation Year | with Industrial Placement | Top-up)\n• BSc (Hons) Artificial Intelligence (3 years | with Foundation Year | with Industrial Placement)\n• BSc (Hons) Cyber Security (3 years | with Foundation Year | with Industrial Placement | Top-up)\n• BEng (Hons) Software Engineering (3 years | with Foundation Year | with Industrial Placement)\n\n🎓 **Postgraduate Taught:**\n• MSc Artificial Intelligence (12 months | 18-month Extended)\n• MSc Software Engineering (12 months | 18-month Extended)\n• MSc Cloud and Network Security (12 months | 18-month Extended)\n• MSc Data Analytics and Technologies (12 months | 18-month Extended)\n• MSc Robotics Programming and Automation (12 months)\n• MSc Business Analytics and Technologies (12 months | Extended)\n• MSc Health Analytics and Technologies (12 months | Extended)\n\n🔬 **Postgraduate Research:**\n• MRes Computing (12 months)\n• MRes Artificial Intelligence (12 months)\n• MRes Applied Artificial Intelligence (12 months)\n\n💼 **Apprenticeships:**\n• BSc Digital and Technology Solutions: Software Engineering (Degree Apprenticeship)\n• BSc Digital and Technology Solutions: Network Engineering (Degree Apprenticeship)\n• BSc Digital and Technology Solutions: Cyber Security (Degree Apprenticeship)\n\n🏆 Computer Science courses ranked **5th in the UK for Student Satisfaction** (CUG 2026)!\n\n👉 Computer Science: https://greatermanchester.ac.uk/subject-areas/computer-science\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "pre_university_study",
+      "patterns": ["pre university", "access to he", "preparation course", "not ready for degree", "pre-university study", "access course ugm", "fast track to he"],
+      "responses": [
+        "Not quite ready for a full degree? We've got options for you! 🌟🎓😊\n\n📚 **Pre-University Study at UGM:**\nWe offer programmes designed to prepare you for degree-level study — perfect if you don't meet standard entry requirements or want to build your confidence first.\n\n🌟 **Options Include:**\n• **Fast Track to HE** — intensive preparation for higher education\n• **Foundation Year** courses — built into 4-year degree programmes with lower entry requirements\n• **Summer School** — taster sessions to experience university-level study\n• **English Pre-Sessional** — 5-week course for international students with IELTS 5.5\n\n💡 **Who Are These For?**\n• School leavers who need a bit more preparation\n• Mature students returning to education\n• International students needing English language support\n• Anyone wanting to build confidence before committing to a full degree\n\n👉 Pre-University Study: https://greatermanchester.ac.uk/subject-areas/pre-university-study\n👉 Summer School: https://greatermanchester.ac.uk/join-us/summer-school\n👉 How to Apply: https://greatermanchester.ac.uk/join-us/how-to-apply-and-admissions 😊"
+      ]
+    },
+    {
+      "tag": "schools_centres",
+      "patterns": ["schools and centres", "academic schools", "university departments", "faculties", "which school", "academic departments", "centre of intelligence"],
+      "responses": [
+        "UGM is organised into specialist Schools and Centres! 🏫🎓😊\n\n🏢 **Schools & Centres at UGM:**\nThe University of Greater Manchester delivers its teaching and research through specialist academic schools and centres, each with dedicated expert staff.\n\n🌟 **Key Schools & Centres Include:**\n• **Greater Manchester Business School** — Accountancy, Business, MBA, Logistics\n• **School of Engineering** — Mechanical, Motorsport, Construction, Systems Engineering\n• **School of Education** — Teacher Training, Early Years, CHERP research centre\n• **School of Health Sciences** — Nursing, Midwifery, Paramedic Science, Physiotherapy\n• **Queens Dental Sciences Centre (QuDeSC)** — The newest dental education department in England\n• **Centre for Film FX** — Special effects, prosthetics, TV production\n• **Centre of Intelligence of Things** — IoT, Applied ML, Software Engineering, Embedded Computing (Computer Science research)\n• **Medical School** — MBChB Medicine, next to Royal Bolton Hospital\n\n👉 Schools & Centres: https://greatermanchester.ac.uk/explore-our-schools-and-centres\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "student_societies",
+      "patterns": ["societies", "student societies", "university clubs", "what societies are there", "join a society", "student clubs", "extracurricular"],
+      "responses": [
+        "UGM has a range of student societies to get involved with! 🎉🤝😊\n\n🏛️ **Student Societies at UGM:**\nSocieties are run through the **Bolton Students' Union (BSU)** and are a fantastic way to meet like-minded people, develop new skills and enhance your CV!\n\n🤖 **AI Nexus — The First AI Society at UGM!**\nFounded in December 2025 by Efe Stephen Ebieroma and Collins Lemeke (MSc AI, January 2025 cohort), AI Nexus is dedicated to building future AI leaders who apply technology responsibly and sustainably. They run events, workshops, hackathons, meet-ups and networking with industry leaders!\n\n🌟 **Other Societies & Clubs:**\nThe Bolton Students' Union supports a variety of societies across different interests — from sports clubs to cultural groups, academic societies and more!\n\n💡 **Why Join a Society?**\n• Meet new friends and build your network\n• Develop skills outside the classroom\n• Boost your CV with leadership and teamwork experience\n• Have fun and make the most of university life!\n\n📧 **Bolton Students' Union:**\n👉 https://www.boltonsu.com/\n\nWant to start your own society? The BSU can help with that too! 😊"
+      ]
+    },
+    {
+      "tag": "what_is_ugm_not_nexus",
+      "patterns": ["what is ugm about", "why ugm", "why study at ugm", "what makes ugm special", "ugm unique selling points", "why choose ugm", "what is special about ugm", "convince me to study at ugm"],
+      "responses": [
+        "Here's why students love the University of Greater Manchester! 🌟🎓😊\n\n🏆 **Why Choose UGM?**\n\n🥇 **#1 in the North West** for Teaching Quality (Times and Sunday Times)\n🥇 **#1 in the North West** for Student Satisfaction — **6 consecutive years!** (Complete University Guide)\n🏆 **Top 40 University in the UK** (The Guardian 2024)\n\n📚 **Block Teaching:**\nStudy one subject at a time — no juggling multiple modules. Deeper focus, less stress, more confidence.\n\n👩‍🏫 **Small Class Sizes:**\nPersonalised attention from dedicated, expert tutors who know your name.\n\n💰 **Affordable:**\nBolton is one of the most affordable places to study in the UK — with Manchester just 20 minutes by train!\n\n🌍 **Warm & Inclusive:**\nA diverse, welcoming community of approximately 11,000 students from all over the world.\n\n🏥 **World-Class Facilities:**\n• Peter Marsh Library (open 24/7, 195,000+ eBooks)\n• Bolton One (£31M health, science and sports facility)\n• Queens Dental Sciences Centre (newest in England)\n• Medical School next to Royal Bolton Hospital\n• Centre for Film FX with Hollywood connections\n• State-of-the-art computing and AI labs\n\n💼 **Career Focused:**\nIndustry links, employer fairs, 1:1 career coaching, placements and apprenticeships.\n\n🏡 **Orlando Village:**\nApproved student accommodation with PS5, cinema room, mindfulness sessions and weekly events!\n\n👉 Explore: https://greatermanchester.ac.uk/\n👉 Open Days: https://greatermanchester.ac.uk/open-days 😊"
+      ]
+    },
+    {
+      "tag": "direct_applicants",
+      "patterns": ["direct application", "apply directly", "apply without ucas", "non ucas application", "direct applicants", "apply direct to ugm"],
+      "responses": [
+        "You can apply directly to UGM — even without going through UCAS! 📝😊\n\n📋 **Direct Applications at UGM:**\nWhile many undergraduate students apply through UCAS, you can also apply directly to the University of Greater Manchester.\n\n🌟 **Who Can Apply Directly?**\n• International students\n• Postgraduate applicants (Masters, Research)\n• Clearing applicants\n• Students with non-standard qualifications\n• Returning to education / mature students\n\n📋 **How to Apply Directly:**\n1. Find your chosen course on the website\n2. Click **\"Apply Now\"** on the course page\n3. Complete the online application form\n4. Submit your qualifications, personal statement and supporting documents\n\n📧 **Need Help?**\n• General: enquiries@greatermanchester.ac.uk | 📞 +44 (0)1204 903249\n• International: international@bolton.ac.uk | 📞 +44 (0)1204 903 110\n\n👉 Direct Applicants: https://greatermanchester.ac.uk/join-us/how-to-apply-and-admissions/direct-applicants\n👉 How to Apply: https://greatermanchester.ac.uk/join-us/how-to-apply-and-admissions 😊"
+      ]
+    },
+    {
+      "tag": "facilities_investment",
+      "patterns": ["facilities", "university facilities", "investment", "campus investment", "new buildings", "campus development", "what facilities"],
+      "responses": [
+        "UGM has invested heavily in world-class facilities! 🏗️🌟😊\n\n🏢 **Facilities & Investment at UGM:**\nThe University of Greater Manchester has invested millions into creating outstanding learning environments for students.\n\n🌟 **Key Facilities:**\n• 📚 **Peter Marsh Library** — Open 24/7, 195,000+ eBooks, 100,000 print items, study pods, group rooms\n• 🏥 **Bolton One** — £31M state-of-the-art health, science and sports facility (partnership with NHS Bolton and Bolton Council)\n• 🦷 **Queens Dental Sciences Centre (QuDeSC)** — Newest dental education department in England\n• 🩺 **Medical School** — Located next to Royal Bolton Hospital\n• 🎬 **Centre for Film FX** — Industry-standard facilities for special effects\n• 💻 **Computing & AI Labs** — State-of-the-art with industry-leading technologies\n• 🏋️ **Sports Centre** — Gym, fitness classes, sports activities\n• 🏡 **Orlando Village** — Approved student accommodation with cinema room, PS5, common room\n• 💃 **Shockout Arts Studios** — Purpose-built dance studios in Manchester Old Trafford\n\n👉 Facilities & Investment: https://greatermanchester.ac.uk/student-life/facilities-and-investment/\n👉 Student Life: https://greatermanchester.ac.uk/student-life/ 😊"
+      ]
+    },
+    {
+      "tag": "welcome_induction",
+      "patterns": ["welcome week", "induction", "freshers", "freshers week", "starting university", "first week", "new student", "induction week", "welcome"],
+      "responses": [
+        "Welcome & Induction at UGM is designed to help you settle in quickly! 🎉🎓😊\n\n👋 **Welcome Week at UGM:**\nWhen you start at UGM, we have a full Welcome & Induction programme to help you feel at home!\n\n🌟 **What to Expect:**\n• Campus tours and orientation\n• Meet your course tutors and classmates\n• Library induction and IT setup\n• Student services and support information\n• Bolton Students' Union welcome events\n• Social activities and ice-breakers\n• Accommodation support and settling-in help\n\n📋 **Key Resources:**\nThe Welcome portal has everything you need to prepare for starting university — from enrolment to library services, academic skills support and more.\n\n👉 Welcome & Induction: https://greatermanchester.ac.uk/welcome/\n👉 Library Services: https://greatermanchester.ac.uk/welcome/library-services\n👉 Student Life: https://greatermanchester.ac.uk/student-life/ 😊"
+      ]
+    },
+    {
+      "tag": "ai_nexus_events",
+      "patterns": ["ai nexus events", "ai nexus workshops", "ai nexus hackathon", "ai events ugm", "ai workshops", "ai hackathon ugm", "ai nexus meetup", "ai nexus activities", "what does ai nexus do", "join ai nexus", "how to join ai nexus"],
+      "responses": [
+        "AI Nexus runs some incredible events throughout the year! 🎉🤖\n\n📅 **AI Nexus Activities Include:**\n\n🎤 **Events & Talks:**\nHear from AI industry leaders, researchers and innovators sharing insights on the latest in artificial intelligence.\n\n🛠️ **Workshops:**\nHands-on sessions where you learn practical AI skills — from building models to using cutting-edge tools and frameworks.\n\n💻 **Hackathons:**\nCollaborative coding challenges where teams build AI solutions to real-world problems. Great for your portfolio and CV!\n\n🤝 **Networking & Meet-ups:**\nConnect with industry professionals, collaborators and fellow AI enthusiasts. Build relationships that can shape your career!\n\n🌟 AI Nexus is open to all UGM students — whether you're an AI expert or just curious about the technology. Everyone is welcome! 😊\n\nStay connected through the Bolton Students' Union at https://www.boltonsu.com/ for upcoming AI Nexus events! 🎓"
+      ]
+    },
+    {
+      "tag": "dental_sciences",
+      "patterns": ["dental", "dentistry", "dental technology", "dental science", "dental degree", "study dentistry", "dental technician", "dental course", "queens dental"],
+      "responses": [
+        "Dental Sciences at UGM is cutting-edge — with state-of-the-art facilities! 🦷✨😊\n\n🦷 **Dental Sciences at UGM:**\nOur **Queens Dental Sciences Centre (QuDeSC)** is the newest dental education department in England, offering exceptional training!\n\n🌟 **Programmes Include:**\n• BSc (Hons) Dental Technology\n• BSc (Hons) Dental Technology (Top-up)\n• MSc Primary Dental Care\n• MSc Periodontology and Implantology\n• MSc Digital Dentistry\n• MSc Orthodontics\n• MSc Endodontics\n• MSc Prosthodontics\n• And more specialist postgraduate pathways!\n\n🏆 **Why Choose UGM for Dental Sciences?**\n• State-of-the-art dental laboratories with latest specialist equipment\n• Fully furnished implant suite, CBCT scanners and microscope with video link\n• Clinical facilities for treating actual patients\n• Programmes designed to meet General Dental Council (GDC) standards\n• Expert faculty who are leaders in the field of dentistry\n• Preparation for MFDS examination Royal College of Surgeons\n\n🌍 **City of London Dental School (CoLDS):**\nUGM also partners with CoLDS to deliver postgraduate dental programmes in London!\n\n👉 Dental Sciences: https://greatermanchester.ac.uk/subject-areas/dental-sciences\n👉 Queens Dental Sciences Centre: https://greatermanchester.ac.uk/explore-our-schools-and-centres/queens-dental-sciences-centre\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "biomedical_sciences",
+      "patterns": ["biomedical", "biomedical science", "medical biology", "biology degree", "biomedical degree", "study biology", "bioscience", "biomedical sciences"],
+      "responses": [
+        "Biomedical Sciences and Medical Biology at UGM is fascinating and career-launching! 🔬🧬😊\n\n🔬 **Biomedical Sciences & Medical Biology at UGM:**\nOur programmes give you an in-depth understanding of human biology from a medical perspective.\n\n🌟 **Programmes Include:**\n• BSc (Hons) Medical Biology — accredited by the **Royal Society of Biology** 🏅\n• Postgraduate research pathways\n\n🧪 **What You'll Study:**\n• Anatomy and physiology\n• Molecular and cellular biology\n• Biochemistry and molecular genetics\n• Microbiology and nutrition\n• Disease diagnosis and treatment\n\n🏆 **Achievements:**\nOur Biological Sciences courses are **1st in the UK for Student Satisfaction** (Complete University Guide 2026)! 🥇\n\n🩺 **Pathway to Medicine:**\nThe BSc Medical Biology programme helps develop skills for medical school entrance exams (GAMSAT, BMAT, UKCAT) — a great stepping stone to graduate-entry Medicine or Dentistry!\n\n👉 Biomedical Sciences: https://greatermanchester.ac.uk/subject-areas/biomedical-sciences-and-medical-biology\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "film_fx",
+      "patterns": ["film", "film fx", "special effects", "makeup effects", "prosthetics", "tv production", "film production", "film and tv", "sfx", "neill gorton", "millennium fx"],
+      "responses": [
+        "Film FX at UGM is world-class — with connections to Hollywood and beyond! 🎬🌟😊\n\n🎭 **Film FX, Film & TV Production at UGM:**\nOur Centre for Film FX is renowned for training the next generation of special effects artists!\n\n🌟 **Key Highlights:**\n• Learn from **Visiting Professor Neill Gorton**, founder of **Millennium FX** — one of the top FX studios in the world!\n• Supported by **BAFTA-winning Nick Dudman** 🏆\n• Graduates have worked on top productions including **Ant Man**, **Napoleon**, and **Ackley Bridge**!\n\n🎨 **What You'll Learn:**\n• Special make-up and prosthetics\n• Creature and character creation\n• Film and TV production techniques\n• Industry-standard practical skills\n\n🏆 **Why Choose UGM for Film FX?**\n• Industry-leading teaching staff\n• Hands-on practical training from day one\n• Real industry contacts and networking opportunities\n• Cutting-edge facilities\n• Block teaching for immersive, focused learning\n\n👉 Film FX: https://greatermanchester.ac.uk/subject-areas/film-fx-film-and-tv-production\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "dance_performance",
+      "patterns": ["dance", "musical theatre", "performance", "performing arts", "dance degree", "theatre", "commercial dance", "shockout arts", "shockout"],
+      "responses": [
+        "Dance, Musical Theatre and Performance at UGM is dynamic and exciting! 💃🎭😊\n\n🌟 **Dance, Musical Theatre & Performance at UGM:**\nOur programmes are delivered in partnership with **Shockout Arts** in Manchester — a dynamic and innovative dance school that was the **first in the UK** to offer higher-level qualifications in professional and commercial dance! 🥇\n\n🎭 **Programmes Include:**\n• FdA Professional and Commercial Dance (2 years)\n• BA (Hons) Professional and Commercial Dance (3 years)\n\n💃 **What Makes It Special:**\n• Training at Shockout Arts' **purpose-built, world-class studios** in Manchester (Old Trafford)\n• Professional practitioners and choreographers as teaching staff\n• Regular performance opportunities throughout your studies\n• Small group teaching with individual support and guidance\n• Skills in acting and singing alongside dance training\n\n🎓 **Career Paths:**\nGraduates go on to careers as professional dancers, choreographers, teachers, and performers in the entertainment industry!\n\n📍 **Location:** Shockout Arts, Valo Building, Brian Statham Way, Old Trafford, Manchester, M16 0PU\n\n👉 Dance & Performance: https://greatermanchester.ac.uk/subject-areas/dance-musical-theatre-and-performance\n👉 Shockout Arts: http://www.weareshockout.com/\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "paramedic_science",
+      "patterns": ["paramedic", "paramedic science", "ambulance", "emergency services", "become a paramedic", "first responder", "paramedic degree", "nwas", "clinical sciences"],
+      "responses": [
+        "Paramedic Science at UGM prepares you for one of the most rewarding frontline careers! 🚑💙😊\n\n🚑 **Paramedic Science at UGM:**\nOur BSc (Hons) Paramedic Science degree is offered in partnership with the **North West Ambulance Service (NWAS) NHS Trust**!\n\n🌟 **Programme Highlights:**\n• **600 hours** of real-world practice with NWAS and local healthcare providers\n• Advanced **simulation facilities** including clinical suites, immersive environments, and a dedicated **ambulance simulator** 🚑\n• Expert teaching from specialists in pre-hospital care\n• 3-year undergraduate programme\n\n📋 **What You'll Learn:**\n• Emergency assessment and clinical decision-making\n• Life-saving clinical skills and interventions\n• Operating emergency ambulances and rapid response vehicles\n• Patient care across emergency and non-emergency situations\n• Managing patients of all ages in varied environments\n\n🏆 **Why Choose UGM?**\n• Direct partnership with NHS\n• Hands-on practical training from day one\n• Block teaching for focused progression\n• Excellent career prospects — paramedics are in high demand!\n\n👉 Paramedic Sciences: https://greatermanchester.ac.uk/subject-areas/paramedic-sciences\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "physiotherapy",
+      "patterns": ["physiotherapy", "physio", "physiotherapist", "sport rehabilitation", "physical therapy", "physio degree", "sports rehab", "strength and conditioning"],
+      "responses": [
+        "Physiotherapy and Sport Rehabilitation at UGM is hands-on and career-focused! 🏃‍♂️💪😊\n\n🏃 **Physiotherapy & Sport Rehabilitation at UGM:**\nOur programmes prepare you for rewarding careers in healthcare and elite sport!\n\n🌟 **Programmes Include:**\n• BSc (Hons) Physiotherapy\n• BSc (Hons) Sport Rehabilitation (BASRaT accredited)\n• Strength & Conditioning programmes\n• Postgraduate options to advance your career\n\n🏥 **Physiotherapy Highlights:**\n• **1,000 hours** of practice-based learning across primary care, private and voluntary sectors\n• Preparation for HCPC registration as an autonomous, independent practitioner\n• Learn about the human body in the context of health, disease, disorder and dysfunction across all ages\n• Expert faculty — including staff with experience in elite football (Everton, Burnley, Preston) and Rugby League (Wigan Warriors)! ⚽🏉\n\n🏋️ **Sport Rehabilitation:**\n• BASRaT accredited — the professional body for sport rehabilitators\n• Real-world placements including in elite sport settings\n• Focus on injury treatment, mobility improvement, and athletic performance\n\n👉 Physiotherapy & Sport Rehab: https://greatermanchester.ac.uk/subject-areas/physiotherapy-and-sport-rehabilitation\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "games",
+      "patterns": ["games", "game design", "game development", "video games", "gaming", "game programming", "game art", "esports"],
+      "responses": [
+        "Games at UGM is where creativity meets technology! 🎮🚀😊\n\n🎮 **Games at UGM:**\nOur Games programmes are designed to launch your career in one of the fastest-growing creative industries in the world!\n\n🌟 **What You'll Learn:**\n• Game design and development\n• Game programming and software skills\n• Game art and visual design\n• Industry-standard tools and workflows\n• Portfolio development for the games industry\n\n🏆 **Why Choose UGM for Games?**\n• Industry-relevant, hands-on curriculum\n• Modern facilities and computing labs\n• Block teaching for focused, immersive learning\n• Small class sizes with dedicated support\n• Strong links with the creative and tech industries\n\n💼 **Career Prospects:**\nThe UK games industry is booming! Graduates can pursue careers as game designers, developers, artists, programmers and more.\n\n👉 Games: https://greatermanchester.ac.uk/subject-areas/games\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "university_history",
+      "patterns": ["history of the university", "when was ugm founded", "university history", "how old is the university", "university of bolton", "name change", "when did it become ugm", "formerly university of bolton", "200 years"],
+      "responses": [
+        "The University of Greater Manchester has an incredible and rich history! 🏛️📜😊\n\n📅 **Our History:**\n\n🏗️ **1824** — Founded as the **Bolton Mechanics' Institute** — that's 200 years of education! 🎉\n🏫 **1887** — Technical instruction introduced for engineering apprentices\n🎓 **1926** — Bolton Technical School becomes a college\n🏢 **1982** — Bolton Institute of Higher Education formed\n📜 **1992** — Awarded power to grant taught degrees\n🎓 **2005** — Achieved full university status as the **University of Bolton**\n🌟 **2024** — Historic name change to the **University of Greater Manchester**!\n\nThe name change was announced by **Professor George E Holmes DL**, President and Vice Chancellor, who said: *\"This is an historic moment for this University.\"* Bolton remains our proud home and base! 🏠\n\n🌍 Today, UGM has approximately **11,000 students** and over **900 academic and professional staff**. We're a member of Universities UK, Million+, and the All-Party Parliamentary University Group.\n\n👉 Learn more: https://greatermanchester.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "english_language_requirements",
+      "patterns": ["ielts", "english requirements", "english language", "toefl", "english test", "language requirements", "do i need ielts", "english proficiency", "pre-sessional english"],
+      "responses": [
+        "Great question about English language requirements! 🌍📝😊\n\n📋 **English Language Requirements at UGM:**\nIf English isn't your first language, you'll need to demonstrate your proficiency.\n\n🎯 **Accepted Qualifications:**\n• **IELTS (Academic):** 6.0 overall with no less than 5.5 in any component (UG & PG)\n• **TOEFL (Internet-based):** Overall score of 80 (including 17 Listening, 17 Writing, 18 Reading, 20 Speaking)\n• **Cambridge Advanced English:** Grade C minimum\n• **International Baccalaureate:** Standard Level grade 5 / Higher Level grade 4 in English\n• **GCSE/O-Level English:** Grade C from a UK awarding body\n\n⚠️ **Important:** All IELTS tests are only valid for **2 years** from the date of testing (UKVI requirement).\n\n📚 **Pre-Sessional English Course:**\nIf your IELTS is 5.5, you can take our **5-week English Pre-Sessional course** to meet the entry requirements! The programme covers academic writing, speaking, listening, and reading.\n\n🆓 **Exemptions:**\nYou may be exempt if you're from a majority English-speaking country or have completed a degree taught in English.\n\n📧 **Questions?** Contact: international@bolton.ac.uk\n\n👉 English Language Requirements: https://greatermanchester.ac.uk/study/international/english-language-requirements\n👉 International Entry Requirements: https://greatermanchester.ac.uk/international/international-general-entry-requirements 😊"
+      ]
+    },
+    {
+      "tag": "bolton_one",
+      "patterns": ["bolton one", "bolton 1", "health facilities", "nhs bolton", "sports complex", "bolton one facility"],
+      "responses": [
+        "Bolton One is one of our most impressive facilities! 🏢💙😊\n\n🏥 **Bolton One:**\nA **£31 million** state-of-the-art facility — a three-way partnership between the University of Greater Manchester, Bolton Council, and NHS Bolton!\n\n🌟 **What's Inside:**\n• New health, science and sports teaching and research facilities\n• A modern **sports complex** for students and the community\n• NHS health services integrated on campus\n• The University contributed around **£7 million** to the development\n\nBolton One represents UGM's commitment to health, wellbeing and community — bringing together education, healthcare and sport in one purpose-built centre!\n\n👉 Learn more about our facilities: https://greatermanchester.ac.uk/student-life/ 😊"
+      ]
+    },
+    {
+      "tag": "medical_school",
+      "patterns": ["medical school", "ugm medical school", "bolton medical school", "royal bolton hospital", "study to be a doctor", "medical training"],
+      "responses": [
+        "The UGM Medical School is an exciting new addition! 🩺🏥😊\n\n⚕️ **UGM Medical School:**\nThe University of Greater Manchester has its own dedicated Medical School, located next to the **Royal Bolton Hospital** — giving students direct access to clinical settings!\n\n🌟 **Key Features:**\n• **MBChB Medicine** — a full 5-year undergraduate medicine degree\n• Located next to a major NHS hospital for real clinical experience\n• Combines academic learning with hands-on clinical placements\n• Prepares you for a career as a doctor in the NHS and beyond\n\n🏆 **Why Train at UGM?**\n• Brand new Medical School with modern facilities\n• Close proximity to Royal Bolton Hospital\n• Supportive, small learning environment\n• Part of UGM's strong healthcare education tradition (Nursing, Paramedic Science, Physiotherapy)\n\n📋 **How to Apply:**\nVisit the official course page for application details and entry requirements.\n\n👉 Medical School: https://medicine.bolton.ac.uk/\n👉 MBChB Medicine: https://www.bolton.ac.uk/course/mbchb-medicine-full-time-5-years-university-of-bolton\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "greater_manchester_way",
+      "patterns": ["greater manchester way", "gmw", "tiriae", "curriculum approach", "teaching approach", "how is teaching delivered", "learning framework", "teaching innovation"],
+      "responses": [
+        "The Greater Manchester Way is our innovative approach to education! 🎓✨😊\n\n📚 **The Greater Manchester Way (GMW):**\nThis is UGM's signature teaching and learning framework — designed to put students at the heart of everything we do!\n\n🌟 **What is TIRIAE?**\nGMW is built on the **TIRIAE** approach:\n• **T**eaching Intensive\n• **R**esearch Informed\n• **I**nnovation focused\n• **A**ssessment Enabled\n• Tackling real-world issues that matter to our community\n\n📅 **Rollout Plan:**\n• **Phase 1 (2025):** Targeted undergraduate programmes in block format\n• **Phase 2 (2026):** Majority of programmes offered through GMW\n• **Phase 2.5 (February 2027):** Full rollout across all programmes\n\n🏆 **Our Goal:**\nTo become renowned for excellence in student engagement through innovative curriculum and assessment — designed to address real-world problems and put students first!\n\n👉 Learn more: https://greatermanchester.ac.uk/explore-our-schools-and-centres/school-of-education/cherp/the-greater-manchester-way 😊"
+      ]
+    },
+    {
+      "tag": "axiom_chatbot",
+      "patterns": ["what is axiom", "who is axiom", "what are you", "are you a bot", "are you ai", "are you real", "are you human", "what can you do", "how do you work", "your name", "what is your name"],
+      "responses": [
+        "I'm **Axiom** 🤖😊 — the University of Greater Manchester's AI-powered chatbot assistant!\n\n💡 **About Me:**\n• I was created by **Collins Lemeke**, an MSc Artificial Intelligence student (January 2025 cohort) at UGM\n• Collins is also the co-founder of **AI Nexus** — UGM's first AI society! 🌟\n• I use natural language processing and machine learning to understand your questions and provide helpful answers\n\n📋 **What I Can Help With:**\n• 🎓 Courses and programmes\n• 💰 Fees, funding and scholarships\n• 🏠 Accommodation\n• 📝 Admissions and applications\n• 🌍 International student information\n• 📚 Student life, support and wellbeing\n• 💼 Careers and employability\n• 📖 Library and facilities\n• 📚 Study Mode — upload documents and I'll help you study!\n• And much more!\n\nI'm always learning and improving. If I can't answer something, I'll do my best to point you in the right direction! Just ask me anything 🚀😊"
+      ]
+    },
+    {
+      "tag": "student_magazine",
+      "patterns": ["student magazine", "university magazine", "student publication", "student newspaper", "student media"],
+      "responses": [
+        "UGM has its very own Student Magazine! 📰✨😊\n\n📖 **The UGM Student Magazine:**\nA student-run publication that keeps you informed, entertained and connected to campus life!\n\nIt's a great way to stay up to date with what's happening at the University of Greater Manchester — from events and achievements to student stories and campus news.\n\n📖 **Read it online:**\n👉 https://online.flippingbook.com/link/326729/\n\nInterested in contributing? It's a brilliant way to build your portfolio and get involved in student life! Contact the Bolton Students' Union for more info.\n\n👉 Bolton Students' Union: https://www.boltonsu.com/ 😊"
+      ]
+    },
+    {
+      "tag": "national_student_survey",
+      "patterns": ["nss", "national student survey", "student satisfaction survey", "student feedback", "survey results"],
+      "responses": [
+        "UGM consistently excels in the National Student Survey! 📊🏆😊\n\n📋 **National Student Survey (NSS):**\nThe NSS is an annual survey that gathers feedback from final-year students across UK universities. It measures satisfaction with teaching quality, assessment, academic support, learning resources, and student voice.\n\n🏆 **UGM's NSS Results:**\n• **#1 in the North West for Student Satisfaction** — for 6 consecutive years! (Complete University Guide)\n• **#1 in the North West for Teaching Quality** (Times and Sunday Times Good University Guide)\n• Consistently high ratings across all categories\n\n💬 These results reflect our commitment to putting students first — with outstanding teaching, personalised support, and a warm, inclusive learning environment!\n\n👉 NSS Info: https://greatermanchester.ac.uk/\n👉 Rankings: https://greatermanchester.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "business_gateway",
+      "patterns": ["business gateway", "employer partnerships", "business partnerships", "industry links", "corporate", "work with the university", "employer engagement"],
+      "responses": [
+        "The UGM Business Gateway connects employers with our talented students and graduates! 🏢🤝😊\n\n💼 **Business Gateway at UGM:**\nThe University of Greater Manchester works closely with businesses and organisations in the region and beyond through our dedicated Business Gateway.\n\n🌟 **What We Offer Businesses:**\n• Access to talented graduates and placement students\n• Apprenticeship programme partnerships\n• CPD and professional development courses\n• Research and consultancy collaboration\n• Employer fairs and recruitment events on campus\n• Networking opportunities with UGM students and staff\n\n🎓 **What It Means for Students:**\n• Real industry connections during your studies\n• Placement and internship opportunities\n• Networking with potential employers\n• Industry-relevant learning experiences\n\n📧 **Get in Touch:**\nWhether you're a business looking to partner with us or a student wanting to learn more:\nenquiries@greatermanchester.ac.uk\n\n👉 Business Gateway: https://greatermanchester.ac.uk/business-gateway/ 😊"
+      ]
+    },
+    {
+      "tag": "rent_a_room",
+      "patterns": ["rent a room", "private accommodation", "private housing", "landlord", "private landlord", "off campus accommodation", "rent", "renting"],
+      "responses": [
+        "Looking for accommodation options beyond Orlando Village? 🏠😊\n\n🏡 **Rent a Room Scheme:**\nIn addition to Orlando Village (our approved student accommodation), UGM offers a **Rent a Room Scheme** to help you find safe, quality private accommodation in Bolton!\n\n🌟 **Benefits:**\n• Vetted private landlords and accommodation options\n• Help finding housing that suits your budget and needs\n• Guidance on tenancy agreements and your rights as a renter\n• Support from the university throughout the process\n\n💡 **Tips:**\n• Bolton is very affordable compared to other UK cities\n• Great public transport links make it easy to get to campus\n• Nearby supermarkets (Sainsbury's, Morrison's, Aldi) keep food costs low\n\n📧 **Need help finding accommodation?**\nContact us at enquiries@greatermanchester.ac.uk\n\n👉 Rent a Room Scheme: https://greatermanchester.ac.uk/student-life/rent-a-room-scheme\n👉 Accommodation: https://greatermanchester.ac.uk/student-life/accommodation/ 😊"
+      ]
+    },
+    {
+      "tag": "cpd_short_courses",
+      "patterns": ["cpd", "short courses", "professional development", "continuing professional development", "part time courses", "evening courses", "short course"],
+      "responses": [
+        "Looking to upskill or develop professionally? We've got you covered! 📚💼😊\n\n🎓 **CPD & Short Courses at UGM:**\nThe University of Greater Manchester offers a range of Continuing Professional Development (CPD) and short courses for professionals looking to enhance their skills!\n\n🌟 **What's Available:**\n• Industry-specific CPD programmes\n• Short courses across multiple subject areas\n• Professional development for career advancement\n• Flexible learning options to fit around your work\n\n💡 **Who Are They For?**\n• Working professionals wanting to upskill\n• Career changers exploring new fields\n• Employers investing in staff development\n• Anyone wanting to learn something new!\n\n👉 CPD & Short Courses: https://greatermanchester.ac.uk/courses\n👉 Business Gateway: https://greatermanchester.ac.uk/business-gateway/ 😊"
+      ]
+    },
+    {
+      "tag": "graduation",
+      "patterns": ["graduation", "graduate", "ceremony", "graduation ceremony", "cap and gown", "when is graduation", "convocation", "degree ceremony"],
+      "responses": [
+        "Graduation is one of the most special days at UGM! 🎓🎉😊\n\n🎓 **Graduation at UGM:**\nYour graduation ceremony is a celebration of all your hard work and dedication — and we make it truly memorable!\n\n🌟 **What to Expect:**\n• A formal ceremony where you receive your degree\n• Cap and gown — the full graduation experience! 🎓\n• Family, friends and supporters are welcome to attend\n• Photo opportunities to capture the special moment 📸\n• A proud celebration of your achievements!\n\n🏆 **Honorary Doctorates:**\nUGM also awards Honorary Doctorates to inspiring individuals who have made outstanding contributions to their fields.\n\n📧 **Graduation Enquiries:**\nContact us for specific dates and details:\nenquiries@greatermanchester.ac.uk\n\n👉 Honorary Doctorates: https://greatermanchester.ac.uk/more/honorary-doctorates/\n👉 Help Centre: https://knowledge.bolton.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "governance_policies",
+      "patterns": ["governance", "policies", "university leadership", "vice chancellor", "management", "university governance", "regulations", "strategy"],
+      "responses": [
+        "UGM has a clear governance structure and strategic vision! 🏛️📋😊\n\n🏫 **University Governance:**\nThe University of Greater Manchester is committed to transparent, effective governance and strong leadership.\n\n📋 **Key Areas:**\n• University Leadership team\n• Strategy and Vision for the future\n• Policies covering academic standards, equality, sustainability and more\n• Environmental sustainability commitment\n• Degree Outcomes Statement — transparency about our academic standards\n\n🌟 **Our Vision:**\nTo be a forward-thinking, inclusive university that puts students first, delivers outstanding teaching, and contributes positively to the Greater Manchester region and beyond.\n\n👉 Governance: https://greatermanchester.ac.uk/governance/\n👉 Strategy & Vision: https://greatermanchester.ac.uk/more/strategy-and-vision/\n👉 University Leadership: https://greatermanchester.ac.uk/more/university-leadership/\n👉 Policies: https://greatermanchester.ac.uk/governance/policies-and-legal/ 😊"
+      ]
+    },
+    {
+      "tag": "care_experienced",
+      "patterns": ["care experienced", "care leaver", "looked after children", "in care", "foster care", "care experienced students", "leaving care"],
+      "responses": [
+        "UGM is proud to support care-experienced students every step of the way! 💙🤝😊\n\n👩‍👧 **Support for Care-Experienced Students:**\nWe understand that care-experienced students may face unique challenges, and we're committed to providing dedicated support to help you succeed!\n\n🌟 **What We Offer:**\n• Specialist support and guidance throughout your studies\n• Dedicated contacts who understand your needs\n• Help with accommodation, funding and student life\n• A warm, inclusive and supportive university community\n• Financial support through the Student Support Fund\n\n💡 **You're Not Alone:**\nWe want you to feel welcome, supported and empowered from the moment you apply to the day you graduate — and beyond!\n\n📧 **Get in Touch:**\nstudentadvisors@greatermanchester.ac.uk\n\n👉 Care Experienced Students: https://greatermanchester.ac.uk/student-life/care-experienced-students\n👉 Student Support: https://greatermanchester.ac.uk/student-support/ 😊"
+      ]
+    },
+    {
+      "tag": "research",
+      "patterns": ["research", "research at ugm", "academic research", "research opportunities", "research projects", "phd research", "doctoral research"],
+      "responses": [
+        "Research at UGM is innovative, impactful and growing! 🔬🌟😊\n\n🔬 **Research at UGM:**\nThe University of Greater Manchester is committed to research that makes a real-world difference — informing teaching and contributing to society.\n\n🌟 **Research Highlights:**\n• Active research across multiple disciplines\n• Research-informed teaching enriches your learning experience\n• Guest lecturers and specialists share cutting-edge insights\n• Opportunities for postgraduate research (MRes, MPhil, PhD)\n• Research contributes to local, national and international impact\n\n🎓 **Postgraduate Research:**\nWe offer research degree programmes for students who want to push the boundaries of knowledge in their field.\n\n💡 **Research-Informed Teaching:**\nOur academic teams are actively involved in research, ensuring that what you learn is informed by the latest evidence and developments.\n\n👉 Research Programmes: https://greatermanchester.ac.uk/join-us/research-programmes\n👉 Postgraduate: https://greatermanchester.ac.uk/postgraduate-courses 😊"
+      ]
+    },
+    {
+      "tag": "timetable_schedule",
+      "patterns": ["timetable", "schedule", "class times", "when are my classes", "lecture times", "teaching hours", "how many hours", "semester dates"],
+      "responses": [
+        "Need info about your timetable? Here's what you need to know! 📅😊\n\n🗓️ **Timetables at UGM:**\nYour timetable will depend on your specific course and year of study. With our **Block Teaching** approach, you'll study one subject at a time — making your schedule clearer and more focused!\n\n📋 **How to Access Your Timetable:**\n• Timetables are available through the student portal once you're enrolled\n• Contact your course team or Student Advisors for specific schedule queries\n\n📚 **Semester Structure:**\nThe academic year is structured around semesters, with teaching blocks designed for focused, intensive learning.\n\n📧 **Need Help?**\n• Student Advisors: studentadvisors@greatermanchester.ac.uk\n• Help Centre has guidance on timetables, transfers and more!\n\n👉 Help Centre: https://knowledge.bolton.ac.uk/\n👉 Welcome info: https://greatermanchester.ac.uk/welcome/ 😊"
+      ]
+    },
+    {
+      "tag": "student_hub",
+      "patterns": ["student hub", "studenthub", "student portal", "online portal", "moodle", "virtual learning", "student login", "online learning"],
+      "responses": [
+        "StudentHub is your go-to digital platform at UGM! 💻🎓😊\n\n🖥️ **StudentHub:**\nStudentHub is the University of Greater Manchester's online portal for students, providing access to all your essential tools and resources in one place!\n\n📋 **What You Can Access:**\n• Course materials and learning resources\n• Careers resources and job opportunities\n• Booking appointments with career advisors\n• Sports activity bookings\n• Important university communications\n• Student support services\n\n💡 **Tip:** Make sure to check StudentHub regularly for updates, deadlines and opportunities!\n\n📧 **Having trouble logging in?**\nContact the Help Centre for technical support.\n\n👉 Help Centre: https://knowledge.bolton.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "off_campus_partners",
+      "patterns": ["off campus", "partner colleges", "collaborative partners", "study abroad", "partner institutions", "off campus study"],
+      "responses": [
+        "UGM works with partners to extend learning opportunities! 🌍🎓😊\n\n🤝 **Off-Campus Partners:**\nThe University of Greater Manchester delivers programmes through a range of collaborative partnerships, extending our reach beyond Bolton!\n\n🌟 **Key Partnerships Include:**\n• **Shockout Arts** (Manchester) — Dance and Performing Arts programmes\n• **City of London Dental School (CoLDS)** — Postgraduate dental programmes in London\n• Various off-campus delivery sites across Greater Manchester and beyond\n• The university also has an academic centre in **Ras Al Khaimah, United Arab Emirates** 🇦🇪\n• Multi-academy trust sites for Education and Teacher Training\n\n💡 These partnerships give students access to specialist facilities, expert teaching and unique learning environments!\n\n👉 Study with an Off-Campus Partner: https://greatermanchester.ac.uk/join-us/study-with-an-off-campus-partner\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": ["events", "university events", "whats on", "upcoming events", "campus events", "ugm events", "what events are there"],
+      "responses": [
+        "There's always something happening at UGM! 🎉📅😊\n\n🗓️ **Events at UGM:**\nThe University of Greater Manchester hosts a wide range of events throughout the year for students, applicants and the wider community!\n\n🌟 **Types of Events:**\n• 🎓 **Open Days** — Explore campus, meet tutors and students\n• 🔭 **Future Focus Days** — Live lectures, workshops and exhibitions\n• 💼 **Employer Fairs** — Meet potential employers and network\n• 🎤 **Guest Lectures** — Industry experts and thought leaders\n• 🏆 **Awards Ceremonies** — Celebrating student achievements\n• 🤖 **AI Nexus Events** — Workshops, hackathons, meet-ups (the first AI society at UGM!)\n• 🏋️ **Sports Events** — Competitions, fitness challenges and more\n• 🎭 **Performances** — Dance, theatre and creative showcases\n\n📧 **Stay Updated:**\nenquiries@greatermanchester.ac.uk\n\n👉 Events: https://greatermanchester.ac.uk/more/events/\n👉 Open Days: https://greatermanchester.ac.uk/open-days 😊"
+      ]
+    },
+    {
+      "tag": "disability_accessibility",
+      "patterns": ["disability", "accessible", "accessibility", "wheelchair", "step free", "special needs", "learning disability", "dyslexia", "additional needs"],
+      "responses": [
+        "Accessibility and inclusion are at the heart of everything we do at UGM! ♿💙😊\n\n♿ **Disability & Accessibility at UGM:**\nWe're committed to ensuring that all students can access and enjoy the full university experience.\n\n🌟 **Support Available:**\n• Specialist disability information and advice team\n• Support with Disabled Students' Allowance (DSA) applications\n• Reasonable adjustments for exams and assessments\n• Assistive technology and learning support\n• Support for dyslexia, physical disabilities, mental health conditions, sensory impairments and more\n\n🏫 **Campus Accessibility:**\n• Step-free routes available across campus\n• Accessible facilities and accommodation options\n• Support available for Open Days and campus visits\n\n📧 **Disability Support Contact:**\n• disabilityinfo@greatermanchester.ac.uk\n• The team is based in the Student Centre, Chancellor's Mall\n\n👉 Student Support: https://greatermanchester.ac.uk/student-support/\n👉 Help Centre: https://knowledge.bolton.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "honorary_doctorates",
+      "patterns": ["honorary doctorate", "honorary degree", "honorary doctorates", "honorary award", "who received honorary"],
+      "responses": [
+        "UGM celebrates outstanding individuals with Honorary Doctorates! 🎓🌟😊\n\n🏆 **Honorary Doctorates at UGM:**\nThe University of Greater Manchester awards Honorary Doctorates to inspiring individuals who have made outstanding contributions to their fields, communities, or to public life.\n\nThese awards recognise excellence, dedication and positive impact — and connect our university to some truly remarkable people!\n\n🎓 **Past Recipients:**\nVisit our Honorary Doctorates page to see who has been honoured by the university.\n\n👉 Honorary Doctorates: https://greatermanchester.ac.uk/more/honorary-doctorates/ 😊"
+      ]
+    },
+    {
+      "tag": "blogs_news",
+      "patterns": ["blog", "blogs", "news", "latest news", "university news", "student stories", "ugm news", "student blog"],
+      "responses": [
+        "Stay updated with the latest from UGM! 📰🌟😊\n\n📝 **UGM Blogs & News:**\nWe regularly share inspiring student stories, university news and insightful blog posts!\n\n🌟 **Popular Blogs:**\n• 🏎️ \"From Bolton to the Fast Lane: My Motorsport Technology Journey\"\n• 👩‍🏫 \"Becoming the Teacher I Was Meant to Be — Maral's Inspiring Journey\"\n• 🎨 \"Creating My Future: Why Studying Digital Media and Content Creation at UGM Was the Best Decision I Made\"\n• ✍️ \"From Scribbles to Stories: My Creative Writing Journey at UGM\"\n• 🏥 \"How UK Child Nursing Degrees Address Unique NHS Paediatric Needs\"\n• 🏆 \"Champions! University of Greater Manchester football team wins league\"\n• 🎓 \"Xavier's pride as he is named Apprentice of the Year\"\n\n📰 **News:**\nKeep up with the latest university developments, achievements and announcements!\n\n👉 Blogs: https://greatermanchester.ac.uk/blogs/\n👉 News: https://greatermanchester.ac.uk/news/ 😊"
+      ]
+    },
+    {
+      "tag": "mature_students",
+      "patterns": ["mature student", "mature students", "older student", "returning to education", "going back to university", "adult learner", "over 21", "access course", "fast track"],
+      "responses": [
+        "It's never too late to start your university journey! 🌟🎓😊\n\n👩‍🎓 **Mature Students at UGM:**\nThe University of Greater Manchester warmly welcomes mature students — your life experience is a valuable asset to our learning community!\n\n🌟 **Why UGM is Great for Mature Students:**\n• **Block teaching** — study one subject at a time, perfect for managing study alongside other commitments\n• Supportive, small class sizes with personalised attention\n• Flexible learning options\n• Dedicated student support services\n• A friendly and inclusive campus community\n\n📚 **Access & Fast Track Programmes:**\nNot sure if you're ready for a full degree? Our pre-university study options like **Fast Track to HE** can help prepare you for degree-level study!\n\n💰 **Funding:**\nMature students are eligible for Student Finance England support including tuition fee loans and maintenance loans.\n\n📧 **Questions?**\nenquiries@greatermanchester.ac.uk | 📞 +44 (0)1204 900 600\n\n👉 Pre-University Study: https://greatermanchester.ac.uk/subject-areas/pre-university-study\n👉 How to Apply: https://greatermanchester.ac.uk/join-us/how-to-apply-and-admissions 😊"
+      ]
+    },
+    {
+      "tag": "ucas_tariff",
+      "patterns": ["ucas tariff", "ucas points", "tariff points", "how many ucas points", "a level points", "btec points", "t levels", "entry points"],
+      "responses": [
+        "Let's break down UCAS Tariff points for you! 📊🎓😊\n\n📋 **UCAS Tariff at UGM:**\nEntry requirements at UGM are expressed in UCAS Tariff points. We accept a full range of qualifications!\n\n🌟 **Qualifications We Accept:**\n• A-Levels\n• BTECs (Extended Diploma, Diploma, Certificate)\n• T-Levels\n• International Baccalaureate\n• Access to HE Diplomas\n• And many other Level 3 qualifications that carry UCAS points!\n\n📌 **Typical Requirements:**\nEntry points vary by course — for example, some programmes require 96 UCAS points while others may require more. Always check the specific course page for exact requirements.\n\n💡 **Good to Know:**\nWe also consider non-tariffable qualifications, relevant work experience and vocational qualifications. UGM is committed to giving equal consideration to all types of experience!\n\n📧 **Questions about entry requirements?**\nenquiries@greatermanchester.ac.uk | 📞 +44 (0)1204 903249\n\n👉 How to Apply: https://greatermanchester.ac.uk/join-us/how-to-apply-and-admissions\n👉 Help Centre: https://knowledge.bolton.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "chancellor_mall",
+      "patterns": ["chancellor mall", "student centre", "chancellors mall", "campus buildings", "campus facilities", "main building"],
+      "responses": [
+        "Chancellor's Mall is the heart of student support on campus! 🏫😊\n\n🏢 **Chancellor's Mall:**\nLocated on campus, Chancellor's Mall houses the **Student Centre** — your one-stop hub for all the support you need during your time at UGM!\n\n🌟 **What You'll Find:**\n• Student Advisors — for academic and personal support\n• Student Funding team — budgeting help, loans and bursaries\n• Disability Support services\n• General student enquiries and guidance\n• Careers and employability resources\n\n💡 **Tip:** If you ever need help with anything at UGM, Chancellor's Mall Student Centre is the best place to start!\n\n📧 **Contact:**\n• Student Advisors: studentadvisors@greatermanchester.ac.uk\n• Student Funding: studentfunding@bolton.ac.uk | 📞 01204 903733\n\n👉 Student Support: https://greatermanchester.ac.uk/student-support/ 😊"
+      ]
+    },
+    {
+      "tag": "fun_facts",
+      "patterns": ["fun facts", "interesting facts", "say something interesting", "did you know", "fun fact about ugm", "something cool about ugm", "trivia"],
+      "responses": [
+        "Here are some fun facts about the University of Greater Manchester! 🌟😊\n\n🎉 **Did You Know?**\n\n📅 UGM traces its origins back to **1824** — that's over **200 years** of education history!\n\n🏆 We've been **#1 in the North West for Student Satisfaction for 6 consecutive years!**\n\n📚 Our Peter Marsh Library is open **24/7** during semesters — and has over **195,000 eBooks!**\n\n🚆 Manchester city centre is just **20 minutes by train** from Bolton!\n\n🎬 Our Film FX graduates have worked on **Hollywood blockbusters** like Ant Man and Napoleon!\n\n⚽ The UGM football team are **reigning league champions!** 🏆\n\n🩺 UGM has its own **Medical School** located next to the Royal Bolton Hospital!\n\n🤖 **AI Nexus**, the first AI society at UGM, was founded in **December 2025** by MSc AI students Efe Stephen Ebieroma and Collins Lemeke!\n\n🦷 Our **Queens Dental Sciences Centre** is the newest dental education department in England!\n\n💷 Bolton was one of the first towns where UGM became a **Living Wage employer** (2014)!\n\nPretty impressive, right? 😄🎓"
+      ]
+    },
+    {
+      "tag": "living_wage",
+      "patterns": ["living wage", "fair pay", "employer practices", "staff pay", "living wage employer"],
+      "responses": [
+        "UGM is proud to be a Living Wage employer! 💷🌟😊\n\nIn **November 2014**, the University of Greater Manchester (then University of Bolton) became the **first university in the North West** to become a **Living Wage employer**!\n\nThis means we're committed to paying all staff a fair wage that meets the real cost of living — not just the government minimum. It reflects our values of fairness, inclusion and respect for everyone in our community.\n\n👉 Learn more about our values: https://greatermanchester.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "manchester_city",
+      "patterns": ["manchester", "manchester city centre", "things to do in manchester", "nightlife", "manchester attractions", "manchester culture", "visit manchester"],
+      "responses": [
+        "Manchester is right on your doorstep when you study at UGM! 🌆🚆😊\n\n🏙️ **Manchester — Just 20 Minutes Away:**\nBolton is perfectly positioned — with **Manchester city centre just 20 minutes by train!** This gives you the best of both worlds: an affordable, supportive campus in Bolton and access to one of the UK's most exciting cities!\n\n🌟 **What Manchester Offers:**\n• 🎵 World-class music and nightlife scene\n• ⚽ Home to Manchester United and Manchester City\n• 🎭 Theatres, galleries and museums (including Manchester Art Gallery and Science and Industry Museum)\n• 🛍️ Amazing shopping — from the Arndale Centre to the Northern Quarter's independent boutiques\n• 🍽️ Incredible food scene with cuisines from around the world\n• 🎓 A vibrant student city with over 100,000 students across the region\n\n🚆 **Getting There:**\nDirect trains from Bolton to Manchester Victoria and Piccadilly run frequently throughout the day!\n\n👉 Bolton & Greater Manchester: https://greatermanchester.ac.uk/international/location-bolton-greater-manchester/ 😊"
+      ]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["what courses do you offer", "courses", "programs", "degrees", "what can I study", "available courses", "course list", "subjects", "what subjects", "study options", "undergraduate courses", "postgraduate courses", "what degrees"],
+      "responses": [
+        "We offer a fantastic range of undergraduate and postgraduate programmes at the University of Greater Manchester! 🎓📚 Here are our subject areas:\n\n🔬 Biomedical Sciences & Medical Biology\n💼 Accountancy & Business\n💻 Computer Science\n🎨 Creative & Digital Arts, English & Creative Writing\n💃 Dance, Musical Theatre & Performance\n🦷 Dental Sciences\n📖 Education, Early Years & Teacher Training\n⚙️ Engineering, Motorsport & Construction\n🎬 Film FX, Film & TV Production\n🎮 Games\n❤️ Health & Social Care, Social Work & Community and Youth\n⚖️ Law & Crime and Criminal Justice\n🩺 Medicine (MBChB)\n🏥 Nursing & Midwifery\n🫁 Clinical & Paramedic Sciences\n🏃 Physiotherapy & Sport Rehabilitation\n🧠 Psychology\n\nWe also offer **Apprenticeships**, **CPD & Short Courses**, and **Postgraduate Research** programmes!\n\n👉 Browse all courses: https://greatermanchester.ac.uk/courses\n👉 Postgraduate courses: https://greatermanchester.ac.uk/postgraduate-courses\n\nWould you like more details on any specific subject? 😊"
+      ]
+    },
+    {
+      "tag": "block_teaching",
+      "patterns": ["block teaching", "how does teaching work", "teaching method", "learning approach", "study one subject", "flexible learning", "block learning", "what is block teaching"],
+      "responses": [
+        "Great question! 😊 The University of Greater Manchester uses an innovative **Block Teaching** approach — and students love it! 🎓\n\n📌 **What is Block Teaching?**\nInstead of juggling multiple modules at once, you study **one subject at a time**, in focused blocks. This means:\n\n✅ Deeper focus and understanding of each subject\n✅ Less stress — no overlapping deadlines\n✅ More confidence as you progress\n✅ Clearer, structured learning that actually works\n✅ More time to engage with your subject and tutors\n\nIt's one of the reasons we're ranked **#1 in the North West for Student Satisfaction!** 🏆\n\n👉 Learn more about Block Teaching: https://greatermanchester.ac.uk/flexible-learning 😊"
+      ]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "tuition", "cost", "how much", "tuition fees", "course fees", "price", "how much does it cost", "fee information", "what are the fees", "cost of studying"],
+      "responses": [
+        "Great question about fees! 💰😊 Here's a helpful overview for the University of Greater Manchester:\n\n💷 **Undergraduate UK Students:**\nTuition fees are funded through **Student Finance England**, which offers:\n• Tuition Fee Loan (covers full fees, regardless of household income)\n• Maintenance Loan (for living costs)\n• Supplementary Grants (Childcare Grant, Parents' Learning Allowance, Adult Dependants' Grant — means tested)\n\n💳 **Paying Your Fees:**\nFees can be paid by three termly instalments or eight monthly direct debit payments. International students can also pay via **Flywire** or **EasyTransfer** (available for students from India, Nigeria, Malaysia and China).\n\n🌍 **International Students:**\nFees vary by programme. Contact us at international@bolton.ac.uk for specific fee details.\n\n📞 **Need help with fees?**\nContact the Student Funding team:\n• 📧 studentfunding@bolton.ac.uk\n• 📞 01204 903733\n• 📧 Finance: creditcontrol@bolton.ac.uk\n\n👉 Full fees & funding info: https://greatermanchester.ac.uk/student-life/fees-and-funding\n👉 Payments page: https://greatermanchester.ac.uk/student-life/fees-and-funding/payments 😊"
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["scholarships", "financial aid", "grants", "funding", "bursary", "financial support", "scholarship", "bursaries", "money support", "help with money", "student finance"],
+      "responses": [
+        "We want studying to be as accessible as possible! 🌟💰 Here's what's available at the University of Greater Manchester:\n\n🎓 **Scholarships & Bursaries 2025/26:**\nUGM offers a range of scholarships and bursaries — visit the website for the latest awards available this academic year.\n\n🎓 **Alumni Loyalty Discount:**\nIf you've already studied at UGM and want to progress to a Masters, you could receive a **£1,000 tuition fee waiver**! Available to full-time and part-time UK/EU Masters students who completed a Bachelor's or Foundation Degree here. Part-time students receive a pro-rata discount.\n\n💼 **Student Support Fund:**\nA discretionary fund to support students in financial difficulty. Priority is given to students with children and final year students. Applications open from end of September each year. Paid in three instalments via BACS transfer.\n\n🏦 **Student Finance England:**\nUK undergraduate students are entitled to apply for tuition fee loans, maintenance loans and supplementary grants.\n\n📧 **Funding Advisor Contact:**\n• studentfunding@bolton.ac.uk\n• 📞 01204 903733\n• Susie Collins (Postgraduate Funding): +44 (0)1204 903497\n\n👉 Scholarships & Bursaries: https://greatermanchester.ac.uk/student-life/fees-and-funding/scholarships-and-bursaries-202526\n👉 General fees & funding: https://greatermanchester.ac.uk/student-life/fees-and-funding 😊"
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["how to apply", "admission", "apply", "application", "enrollment", "enroll", "admission requirements", "applying to ugm", "how do i apply", "entry requirements", "application process"],
+      "responses": [
+        "Applying to the University of Greater Manchester is simple and we're here to help every step of the way! 📝😊\n\n**🇬🇧 UK Students (Undergraduate):**\n• Apply through **UCAS** at ucas.com\n• Or apply directly via our online application form on the website\n• You'll need academic transcripts, a personal statement, and any required supporting documents\n\n**🌍 International Students:**\n• Apply through a University of Greater Manchester **representative or agent** in your country\n• Or apply directly — email international@bolton.ac.uk for guidance\n• You'll need qualifications, references, and immigration documents\n\n**📋 Entry Requirements:**\nEntry requirements vary by course. Check individual course pages for specific requirements.\n\n**🆓 Clearing:**\nIf you're applying through Clearing, call our hotline: **0808 281 1111**\n\n**📞 Admissions Contact:**\n• General: enquiries@greatermanchester.ac.uk\n• International: international@bolton.ac.uk\n• 📞 +44 (0)1204 903249\n\n👉 How to apply: https://greatermanchester.ac.uk/join-us/how-to-apply-and-admissions\n👉 International admissions: https://greatermanchester.ac.uk/international/how-to-apply-and-admissions\n👉 Help Centre: https://knowledge.bolton.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "open_days",
+      "patterns": ["open day", "open days", "visit the university", "campus visit", "can i visit", "come and visit", "tour", "future focus day", "open event", "visit campus"],
+      "responses": [
+        "We'd love to welcome you to our campus! 🎉😊 Here's everything you need to know about Open Days at the University of Greater Manchester:\n\n🗓️ **What happens at an Open Day?**\n• Presentations, tours, workshops & talks\n• Meet course tutors and current students\n• Visit campus facilities including the library, sports centre, and halls of residence\n• Speak with representatives from: Disability Service, Student Finance, Student Services, and Careers\n• Postgraduate info available one-to-one from 11:30am - 4pm\n\n🔭 **Future Focus Days:**\nA special type of open event with live lectures, sessions and workshops. Drop-in information exhibition 4pm–7pm in the Social Learning Zone.\n\n📍 **Getting Here:**\nWe're at Deane Road, Bolton, BL3 5AB — just a short walk from Bolton's rail and coach stations!\n\n🦽 **Accessibility:**\nStep-free routes available across campus. Contact opendays@greatermanchester.ac.uk for support.\n\n📧 **Open Day Enquiries:** opendays@greatermanchester.ac.uk\n📞 01204 903807\n\n👉 Book your Open Day place: https://greatermanchester.ac.uk/open-days\n👉 Open Day Guide: https://greatermanchester.ac.uk/open-days/open-day-guide 😊"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": ["where is the university", "location", "address", "campus", "where are you located", "how to get there", "directions", "where is ugm", "bolton", "campus location"],
+      "responses": [
+        "Great to hear you're thinking of visiting! 📍😊\n\n🏫 **University of Greater Manchester**\nDeane Road, Bolton, BL3 5AB\n\n🚆 **Getting Here:**\n• Just a short walk from **Bolton Rail Station** and **Bolton Coach Station** in the town centre\n• Excellent public transport links\n• Parking available on campus (see campus map in the Open Day Programme)\n\n🌆 **Location Perks:**\n• Bolton is a vibrant town with great shops, bars, restaurants and leisure facilities\n• **Manchester city centre** is less than **20 minutes by train** 🚇\n• The North West is renowned for beautiful countryside, coastline and heritage\n• Easy access to supermarkets (Sainsbury's, Morrison's, Aldi nearby)\n\n🗺️ **Virtual Tour:**\nExplore our campus from home with our **360-degree virtual tour** at https://greatermanchester.ac.uk/study/international\n\n📞 **Contact Us:**\n• 📞 +44 (0)1204 900 600\n• 📧 enquiries@greatermanchester.ac.uk\n\n👉 Bolton & Greater Manchester: https://greatermanchester.ac.uk/international/location-bolton-greater-manchester/ 😊"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "phone", "email", "how to reach", "contact information", "get in touch", "contact details", "phone number", "email address", "how do i contact"],
+      "responses": [
+        "We'd love to hear from you! 😊📞 Here are all the ways to get in touch with the University of Greater Manchester:\n\n📧 **General Enquiries:**\nenquiries@greatermanchester.ac.uk\n📞 +44 (0)1204 900 600\n📞 +44 (0)1204 903249\n\n📧 **Specific Teams:**\n• 🌍 International: international@bolton.ac.uk\n• 💰 Student Funding: studentfunding@bolton.ac.uk | 📞 01204 903733\n• 💰 Student Funding (Postgrad): studentfunding@greatermanchester.ac.uk\n• 💳 Finance/Fees: creditcontrol@bolton.ac.uk | creditcontrol@greatermanchester.ac.uk\n• 🎓 Open Days: opendays@greatermanchester.ac.uk | 📞 01204 903807\n• 🧑‍🎓 Student Advisors: studentadvisors@greatermanchester.ac.uk\n• 💼 Careers: studenthub-careers@greatermanchester.ac.uk\n• ♿ Disability: disabilityinfo@greatermanchester.ac.uk\n• 🎓 Student Support Fund: uobssf@bolton.ac.uk | 📞 01204 903484\n\n🏫 **Visit Us:**\nUniversity of Greater Manchester, Deane Road, Bolton, BL3 5AB\n\n👉 Getting in touch: https://greatermanchester.ac.uk/getting-in-touch/\n👉 Help Centre: https://knowledge.bolton.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": ["accommodation", "housing", "dorms", "residence", "where to stay", "student housing", "halls", "orlando village", "student accommodation", "where to live", "halls of residence"],
+      "responses": [
+        "Finding your home away from home is so exciting! 🏠😊 Here's what's available at the University of Greater Manchester:\n\n🏡 **Orlando Village — The Only Approved Student Accommodation!**\nOrlando Village is the only student accommodation provider approved and recommended by UGM. Here's why students love it:\n\n🛏️ **Room Types Available:**\n• Bronze — single beds with essential furnishings (360° tour available)\n• Bronze Plus — added comforts and extra kitchen storage (360° tour available)\n• Silver — 3/4 size beds with high-quality furnishings (360° tour available)\n\n🌟 **Community & Facilities:**\n• Renovated common room with PS5, large screen TV, full Sky TV package & pool table 🎮\n• Cinema room (bookable daily) 🎬\n• Mindfulness sessions and mental health support 🧘\n• Weekly events and monthly breakfast club 🥐\n• Study areas included\n• Awarded nominations for inclusivity & mental health support in 2024 🏆\n\n📍 **Location:**\nJust a **10-minute walk** from the main campus and town centre, with easy access to bus/rail stations and supermarkets (Sainsbury's, Morrison's, Aldi).\n\n🌍 A warm, inclusive, diverse community welcoming students from every corner of the globe!\n\n👉 Accommodation info: https://greatermanchester.ac.uk/student-life/accommodation/\n👉 Rent a Room Scheme: https://greatermanchester.ac.uk/student-life/rent-a-room-scheme 😊"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": ["library", "library hours", "study space", "books", "resources", "peter marsh library", "library opening", "library facilities", "digital resources", "ebooks"],
+      "responses": [
+        "Our library is absolutely brilliant — students love it! 📚😊\n\n📖 **The Peter Marsh Library:**\nDesigned to help you learn at a time and in a way that suits you best!\n\n⏰ **Opening Hours:**\n24/7 during Semesters 1 and 2! Yes, you read that right — around the clock! 🌙\n\n📚 **Resources:**\n• 🖥️ Over **195,000 eBooks** in our digital library\n• 📰 Over **1 million** journal articles, conference proceedings, newspaper articles and academic publications\n• 📚 **100,000 print items** covering all subject areas studied at UGM\n• **Discover@Bolton** — a simple search tool for all resources\n\n🏢 **Facilities:**\n• Quiet individual study spaces\n• Group study rooms\n• Computer facilities\n• Private study pods\n\n🏆 **Award-Winning:**\nSince 2002, the library has held the **Customer Service Excellence (CSE) award** — recognising outstanding support and services!\n\n🎓 **Academic Skills Hub:**\nExtra learning support to help you develop your academic skills throughout your studies.\n\n👉 Library info: https://greatermanchester.ac.uk/student-life/life-at-bolton/library\n👉 Library services (students): https://greatermanchester.ac.uk/welcome/library-services\n👉 Academic Skills Hub: https://greatermanchester.ac.uk/welcome/library-services/the-academic-skills-hub 😊"
+      ]
+    },
+    {
+      "tag": "sport_wellness",
+      "patterns": ["sport", "gym", "fitness", "sports centre", "wellness", "sport and wellness", "gym membership", "exercise", "activities", "sports facilities", "health and fitness"],
+      "responses": [
+        "Staying active is a huge part of life at the University of Greater Manchester! 💪🏃😊\n\n🏋️ **Sport & Wellness at UGM:**\nSports and wellness are a core part of the UGM lifestyle, with facilities, activities and classes available to our students!\n\n✅ **What's Available:**\n• Sports centre with a wide range of activities and classes\n• Gym membership options available\n• Sports activity bookings through the online portal\n• University of Greater Manchester football team (reigning league champions! 🏆)\n• Various student sports societies and clubs\n\n🎓 **Student Benefits:**\nMany sports activities and facilities are available free or at reduced rates for students!\n\n📞 **Gym Membership:**\nCheck out our dedicated gym membership page for current offers and pricing.\n\n👉 Sport & Wellness: https://greatermanchester.ac.uk/student-life/sport-and-wellness/\n👉 Sports Centre Bookings: https://greatermanchester.ac.uk/student-life/sport-and-wellness/sports-centre-activity-bookings\n👉 Gym Membership: https://greatermanchester.ac.uk/student-life/gym-membership 😊"
+      ]
+    },
+    {
+      "tag": "student_support",
+      "patterns": ["student support", "support services", "mental health", "wellbeing", "disability support", "counselling", "student services", "help for students", "academic support", "personal support"],
+      "responses": [
+        "Your wellbeing matters to us deeply! 💙😊 The University of Greater Manchester offers comprehensive student support:\n\n🧠 **Mental Health & Wellbeing:**\n• Counselling and wellbeing services\n• Mindfulness sessions (also available at Orlando Village accommodation)\n• Dedicated wellbeing teams\n\n♿ **Disability Support:**\n• Specialist disability information and advice\n• Accessible, step-free routes across campus\n• Support to attend Open Days and events\n• Contact: disabilityinfo@greatermanchester.ac.uk\n\n💰 **Financial Support:**\n• Student Funding Advisor — budgeting sessions, student loan help, bursary guidance\n• Student Support Fund (discretionary hardship fund)\n• Contact: studentfunding@bolton.ac.uk | 📞 01204 903733\n\n🎓 **Academic Support:**\n• Academic Skills Hub in the library\n• Personal tutors\n• Student Advisors: studentadvisors@greatermanchester.ac.uk\n\n🏫 **Student Centre:**\nLocated in Chancellor's Mall — your one-stop hub for support!\n\n👩‍👧 **Care Experienced Students:**\nSpecialist support available for care-experienced students.\n👉 https://greatermanchester.ac.uk/student-life/care-experienced-students\n\n👉 Student Support: https://greatermanchester.ac.uk/student-support/\n👉 Help Centre: https://knowledge.bolton.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "careers",
+      "patterns": ["careers", "employment", "jobs", "career support", "employability", "graduate jobs", "career advice", "job help", "career service", "work after university"],
+      "responses": [
+        "Your future career matters to us — we're here to help you every step of the way! 💼🚀😊\n\n🎯 **Careers & Employability at UGM:**\nOur careers service is focused on giving you the skills and knowledge to succeed after university!\n\n📋 **What We Offer:**\n• Workshops and skill-building sessions throughout the academic year\n• Employer fairs — meet potential employers directly!\n• 1:1 appointments with career advisors\n• CV and application support\n• Interview preparation\n• Access to all careers resources through **StudentHub**\n• Part-time job and student worker opportunities\n\n💬 **What Students Say:**\n*\"My time with the Careers and Employment Service was transformative, equipping me with the tools, knowledge, and clarity necessary for a successful career journey.\"*\n\n📧 **Careers Contact:**\nstudentHub-careers@greatermanchester.ac.uk\n\n🏢 **For Employers:**\nThe University also has a Business Gateway for employers looking to connect with UGM students and graduates.\n👉 https://greatermanchester.ac.uk/business-gateway/\n\n👉 Careers & Employability: https://greatermanchester.ac.uk/join-us/careers-and-employability/\n👉 Students careers page: https://greatermanchester.ac.uk/student-life/careers-and-employability/students 😊"
+      ]
+    },
+    {
+      "tag": "international_students",
+      "patterns": ["international student", "international", "overseas student", "studying from abroad", "foreign student", "visa", "student visa", "coming from another country", "international applicant", "studying in uk"],
+      "responses": [
+        "Welcome future international student! 🌍😊 We're so glad you're considering the University of Greater Manchester — we love welcoming students from all over the world!\n\n🌟 **Why Study at UGM?**\n• #1 in the North West for Student Satisfaction 🏆\n• Warm, inclusive and diverse community\n• Bolton is just 20 minutes from Manchester city centre by train 🚆\n• Beautiful North West countryside, coastline and culture nearby\n\n📋 **How to Apply (International):**\n• Apply through a **UGM representative or agent** in your country (recommended)\n• Or apply directly — email: international@bolton.ac.uk\n• Submit: qualifications, references, immigration documents\n\n🛂 **Visa & Immigration:**\n• Full Student Visa guidance available\n• 👉 https://knowledge.bolton.ac.uk/knowledge/overseas-applications#student-visa\n\n💳 **Paying Fees:**\nInternational students can pay via:\n• **Flywire** — real-time tracking, 24/7 multilingual support\n• **EasyTransfer** — especially for students from India, Nigeria, Malaysia & China. Pay in local currency with low fees!\n\n🤝 **International Student Support:**\nWe understand moving to a new country can be daunting — we have teams ready to help you settle in as quickly as possible!\n\n📧 international@bolton.ac.uk\n\n👉 International students: https://greatermanchester.ac.uk/study/international\n👉 International admissions: https://greatermanchester.ac.uk/international/how-to-apply-and-admissions\n👉 Overseas applications help: https://knowledge.bolton.ac.uk/knowledge/overseas-applications 😊"
+      ]
+    },
+    {
+      "tag": "apprenticeships",
+      "patterns": ["apprenticeship", "apprenticeships", "degree apprenticeship", "work and study", "earn while you learn", "apprentice"],
+      "responses": [
+        "Degree Apprenticeships are a brilliant way to earn while you learn! 🎓💼😊\n\n🌟 **Apprenticeships at UGM:**\nThe University of Greater Manchester offers a range of apprenticeship programmes — allowing you to gain a degree while working and earning a salary!\n\n✅ **Benefits:**\n• Earn a salary while studying 💷\n• Graduate with a full degree qualification 🎓\n• Gain real work experience from day one\n• Tuition fees are covered by your employer and the government\n• No student debt for the degree element!\n\n🏆 **Recognition:**\nWe're proud of our apprentices — one of our students was recently named **Apprentice of the Year**! 🌟\n\n📋 **Available Apprenticeship Courses:**\nVisit our apprenticeships page for the full list of available programmes.\n\n👉 Apprenticeships: https://greatermanchester.ac.uk/apprenticeships\n👉 Apprenticeship courses: https://greatermanchester.ac.uk/apprenticeships/courses-2 😊"
+      ]
+    },
+    {
+      "tag": "postgraduate",
+      "patterns": ["postgraduate", "masters", "msc", "ma", "mba", "phd", "research degree", "postgrad", "masters degree", "graduate study", "research programme"],
+      "responses": [
+        "Thinking about taking your studies to the next level? Brilliant! 🎓✨😊\n\n📚 **Postgraduate Study at UGM:**\nWe offer a wide range of taught Masters, research programmes and professional postgraduate courses!\n\n🔬 **Research Programmes:**\nOur academic teams are actively involved in research, helping you explore issues from a robust, research-informed knowledge base. Guest lecturers and specialists are regularly invited to share real-world expertise.\n\n💡 **Popular Postgraduate Areas:**\n• MSc Artificial Intelligence\n• MSc Computer Science\n• MBA Business\n• MSc Social Care, Health and Wellbeing\n• PGCE / Teacher Training\n• And many more!\n\n💰 **Alumni Loyalty Discount:**\nIf you completed your undergraduate degree at UGM, you could save **£1,000** on your Masters fees through the Alumni Loyalty Discount! 🎉\n\n📋 **How to Apply:**\nContact admissions or apply online. Postgraduate info is also available at Open Days (11:30am - 4pm one-to-one).\n\n👉 Postgraduate courses: https://greatermanchester.ac.uk/postgraduate-courses\n👉 Research programmes: https://greatermanchester.ac.uk/join-us/research-programmes\n👉 Build a greater future: https://greatermanchester.ac.uk/join-us/postgraduate-courses 😊"
+      ]
+    },
+    {
+      "tag": "student_life",
+      "patterns": ["student life", "life at ugm", "what is it like", "campus life", "social life", "students union", "societies", "clubs", "what do students do", "life at bolton"],
+      "responses": [
+        "Life at the University of Greater Manchester is vibrant, supportive and full of opportunities! 🌟😊\n\n🎉 **Student Life Highlights:**\n\n🏛️ **Bolton Students' Union (BSU):**\nYour independent students' union — with clubs, societies, events, advice and representation!\n👉 https://www.boltonsu.com/\n\n📰 **Student Magazine:**\nA student-run publication keeping you informed and entertained!\n👉 https://online.flippingbook.com/link/326729/\n\n🏋️ **Sport & Wellness:**\nSports centre, gym, fitness classes, and sports teams — including our **league champion football team!** ⚽🏆\n\n🏡 **Orlando Village:**\nNot just accommodation — a vibrant community with weekly events, breakfast clubs, PS5, cinema room, mindfulness sessions and more!\n\n🌆 **Bolton & Beyond:**\nBolton has great shops, restaurants and nightlife. **Manchester city centre** is only **20 minutes by train** 🚆 — world-class culture, music, sport and entertainment!\n\n💼 **Careers Service:**\nWorkshops, employer fairs and 1:1 career advice throughout the year.\n\n🧘 **Wellbeing:**\nMental health support, counselling, and disability services.\n\n👉 Student Life: https://greatermanchester.ac.uk/student-life/\n👉 Life at Bolton: https://greatermanchester.ac.uk/student-life/life-at-bolton/\n👉 Cost of Living support: https://greatermanchester.ac.uk/cost-of-living 😊"
+      ]
+    },
+    {
+      "tag": "cost_of_living",
+      "patterns": ["cost of living", "living costs", "how expensive is bolton", "afford to study", "living expenses", "budget", "money management", "how much to live"],
+      "responses": [
+        "Thinking about the cost of living is really smart planning! 💰😊 Here's what you need to know:\n\n🏙️ **Bolton is Very Affordable:**\nCompared to other UK cities, Bolton offers great value for money — much more affordable than Manchester or London while being just 20 minutes from Manchester by train!\n\n💷 **Typical Student Costs:**\n• Accommodation: Orlando Village offers various price ranges (Bronze, Bronze Plus, Silver rooms)\n• Food: Nearby supermarkets include Sainsbury's, Morrison's, and Aldi 🛒\n• Transport: Great public transport links\n• Social: Bolton has plenty of affordable restaurants, cafes and entertainment\n\n💡 **Financial Support Available:**\n• Student Finance England maintenance loans\n• UGM Student Support Fund (for students in hardship)\n• Budgeting sessions with the Student Funding Advisor\n• Part-time work support through the Careers Service\n\n📧 **Budgeting Help:**\nContact the Student Funding team for personalised budgeting sessions:\nstudentfunding@bolton.ac.uk | 📞 01204 903733\n\n👉 Cost of Living: https://greatermanchester.ac.uk/cost-of-living\n👉 Fees & Funding: https://greatermanchester.ac.uk/student-life/fees-and-funding 😊"
+      ]
+    },
+    {
+      "tag": "prospectus",
+      "patterns": ["prospectus", "brochure", "download brochure", "course guide", "university guide", "information pack"],
+      "responses": [
+        "A brilliant first step — downloading our Prospectus! 📖😊\n\n📚 **Our Prospectus 2026-27** is the best way to explore everything the University of Greater Manchester has to offer — courses, facilities, student life, fees, and much more!\n\nYou can **download it for free** right now:\n👉 https://greatermanchester.ac.uk/prospectus-2026-27\n\nOr request a **printed copy** to be sent to your home:\n👉 https://greatermanchester.ac.uk/join-us/download-a-brochure\n\nFeel free to ask me anything you find in there — or anything else you'd like to know! 😊🌟"
+      ]
+    },
+    {
+      "tag": "medicine",
+      "patterns": ["medicine", "mbchb", "medical school", "study medicine", "doctor", "medical degree", "mbchb medicine"],
+      "responses": [
+        "Exciting news — the University of Greater Manchester now offers Medicine! 🩺🎓😊\n\n⚕️ **MBChB Medicine (Full-Time, 5 Years):**\nApplications are now open for our MBChB Medicine programme! This is a full 5-year undergraduate medicine degree that will qualify you as a doctor.\n\n🔬 **About the Programme:**\nThe Medicine programme is delivered through our dedicated Medical School. It combines academic learning with clinical placements to prepare you for a career as a doctor in the NHS and beyond.\n\n📋 **How to Apply:**\nApplications are processed through the University of Bolton's official course page.\n\n👉 MBChB Medicine: https://www.bolton.ac.uk/course/mbchb-medicine-full-time-5-years-university-of-bolton\n👉 Medical School: https://medicine.bolton.ac.uk/\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "nursing",
+      "patterns": ["nursing", "midwifery", "nurse", "nursing degree", "study nursing", "nursing and midwifery", "become a nurse"],
+      "responses": [
+        "Nursing and Midwifery at UGM is fantastic — and in high demand! 🏥💙😊\n\n👩‍⚕️ **Nursing & Midwifery at UGM:**\nWe offer a range of undergraduate and postgraduate nursing and midwifery programmes, designed to prepare you for a rewarding career in healthcare.\n\n🌟 **Key Features:**\n• Expert teaching faculty with real NHS experience\n• Clinical placements giving you hands-on experience\n• Strong links with NHS healthcare providers\n• Supportive learning environment\n• Block teaching — one subject at a time for focused learning\n\n📋 **Programmes Include:**\n• Adult Nursing\n• Child Nursing\n• Mental Health Nursing\n• Midwifery\n\n🔗 Did you know? UK Nursing degrees are specifically designed to address NHS paediatric and adult care needs — check out our blog for insights!\n\n👉 Nursing & Midwifery: https://greatermanchester.ac.uk/subject-areas/nursing-and-midwifery\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "computer_science",
+      "patterns": ["computer science", "computing", "it", "software", "programming", "coding", "tech", "technology degree", "cyber security", "artificial intelligence", "ai course"],
+      "responses": [
+        "Technology is one of our most popular and exciting subject areas! 💻🚀😊\n\n🖥️ **Computer Science at UGM:**\nWe offer a range of programmes from undergraduate to postgraduate, covering the cutting edge of technology!\n\n🌟 **Subject Areas Include:**\n• BSc Computer Science\n• BSc Cyber Security\n• MSc Artificial Intelligence\n• MSc Computer Science\n• Games Development\n• Software Engineering\n• And more!\n\n🏆 **Why Choose UGM for Tech?**\n• Industry-relevant curriculum\n• Block teaching for focused learning\n• Access to modern computing labs and facilities\n• Strong graduate employability\n• Supportive, small class environment\n\n💼 **Career Prospects:**\nTech graduates are in high demand! Our Careers Service will help you land the right role after graduation.\n\n👉 Computer Science: https://greatermanchester.ac.uk/subject-areas/computer-science\n👉 Games: https://greatermanchester.ac.uk/subject-areas/games\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "engineering",
+      "patterns": ["engineering", "motorsport", "construction", "civil engineering", "mechanical engineering", "motorsport technology", "engineering degree"],
+      "responses": [
+        "Engineering and Motorsport at UGM is incredibly exciting — and unique! ⚙️🏎️😊\n\n🔧 **Engineering, Motorsport & Construction at UGM:**\nWe're one of the few universities in the UK to offer dedicated Motorsport Technology programmes alongside traditional engineering disciplines!\n\n🌟 **Programmes Include:**\n• BEng Mechanical Engineering\n• BEng Motorsport Technology\n• BSc Construction\n• And more engineering pathways!\n\n🏎️ **Motorsport Spotlight:**\nOur motorsport graduates have gone on to careers in top motorsport organisations — from Bolton to the fast lane! 🏁\n\n🏆 **Why Choose UGM Engineering?**\n• Hands-on, practical learning approach\n• Industry-standard facilities and labs\n• Block teaching for focused progression\n• Strong links with industry employers\n• Dedicated, supportive teaching staff\n\n👉 Engineering, Motorsport & Construction: https://greatermanchester.ac.uk/subject-areas/engineering-motorsport-and-construction\n👉 Blog — Motorsport Journey: https://greatermanchester.ac.uk/blogs/from-bolton-to-the-fast-lane-my-motorsport-technology-journey-at-the-university-of-greater-manchester\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "business",
+      "patterns": ["business", "accountancy", "management", "finance degree", "mba", "business degree", "accounting", "business management", "business studies"],
+      "responses": [
+        "Business and Accountancy at UGM will set you up brilliantly for a career in the professional world! 💼📊😊\n\n🏢 **Accountancy & Business at UGM:**\nWe offer undergraduate and postgraduate programmes designed to develop your business acumen, leadership skills, and professional expertise.\n\n🌟 **Programmes Include:**\n• BA Business Management\n• BA Accountancy & Finance\n• MBA (Master of Business Administration)\n• And specialist postgraduate business programmes!\n\n📈 **Why Study Business at UGM?**\n• Practical, industry-focused curriculum\n• Guest speakers and live business projects\n• Block teaching for structured progression\n• Strong links with local and national employers\n• Careers service support with employer fairs and 1:1 coaching\n\n💼 **Business Gateway:**\nUGM also works closely with businesses in the region — great for networking and placement opportunities!\n👉 https://greatermanchester.ac.uk/business-gateway/\n\n👉 Accountancy & Business: https://greatermanchester.ac.uk/subject-areas/accountancy-and-business\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "psychology",
+      "patterns": ["psychology", "psychology degree", "study psychology", "mental health degree", "counselling psychology", "psychologist"],
+      "responses": [
+        "Psychology is one of our most popular and fascinating subject areas! 🧠💙😊\n\n🧠 **Psychology at UGM:**\nExplore the human mind and behaviour through our engaging and career-focused Psychology programmes!\n\n🌟 **Programmes Include:**\n• BSc Psychology\n• Postgraduate Psychology pathways\n\n🔬 **What You'll Study:**\n• Clinical and health psychology\n• Developmental psychology\n• Social and cognitive psychology\n• Research methods and statistical analysis\n• Applied psychology in real-world settings\n\n🏆 **Why Choose UGM Psychology?**\n• Expert faculty with active research backgrounds\n• Block teaching for deeper, focused learning\n• Strong focus on graduate employability\n• Supportive, small learning environment\n• Great links to healthcare and social care sectors\n\n👉 Psychology: https://greatermanchester.ac.uk/subject-areas/psychology\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "teaching_education",
+      "patterns": ["teacher training", "pgce", "education", "early years", "teaching degree", "become a teacher", "education degree", "teaching qualification"],
+      "responses": [
+        "Inspiring the next generation starts here! 👩‍🏫📚😊\n\n🎓 **Education, Early Years & Teacher Training at UGM:**\nWe offer a range of programmes to help you become a qualified, confident and inspiring teacher!\n\n🌟 **Programmes Include:**\n• BA Education & Early Years\n• PGCE (Primary & Secondary routes)\n• PGDE / PDE / Cert Ed\n• Teacher Training across multiple subjects\n\n💡 **Student Spotlight:**\nRead Maral's inspiring journey: *\"Becoming the Teacher I Was Meant to Be\"* 👉 https://greatermanchester.ac.uk/blogs/becoming-the-teacher-i-was-meant-to-be-marals-inspiring-journey\n\n💰 **Funding Note:**\nITT Teacher Training students are eligible to apply for **undergraduate funding from the Student Loans Company** — great financial support!\n\n🏆 **Why Train at UGM?**\n• #1 in the North West for Teaching Quality 🏆\n• Practical placements in real schools\n• Block teaching for focused learning\n• Supportive mentoring throughout your programme\n\n👉 Education & Teacher Training: https://greatermanchester.ac.uk/subject-areas/education-early-years-and-teacher-training\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "creative_arts",
+      "patterns": ["creative arts", "digital arts", "art and design", "creative writing", "english", "fine art", "creative media", "digital media", "content creation"],
+      "responses": [
+        "Unleash your creativity at the University of Greater Manchester! 🎨✨😊\n\n🎨 **Creative & Digital Arts, English & Creative Writing at UGM:**\nWe nurture creative talent across a wide range of disciplines!\n\n🌟 **Programmes Include:**\n• BA Creative & Digital Arts\n• BA English & Creative Writing\n• BA Digital Media & Content Creation\n• Fine Art\n• And more creative pathways!\n\n✍️ **Student Spotlight:**\n*\"Creating My Future: Why Studying Digital Media and Content Creation at UGM Was the Best Decision I Made\"*\n👉 https://greatermanchester.ac.uk/blogs/creating-my-future-why-studying-digital-media-and-content-creation-at-the-university-of-greater-manchester-was-the-best-decision-i-made\n\n*\"From Scribbles to Stories: My Creative Writing Journey at UGM\"*\n👉 https://greatermanchester.ac.uk/blogs/from-scribbles-to-stories-my-creative-writing-journey-at-the-university-of-greater-manchester\n\n🏆 **Why Choose UGM for Creative Arts?**\n• Industry-experienced faculty\n• Modern creative facilities and studios\n• Block teaching for immersive, focused learning\n• Strong portfolio development\n\n👉 Creative & Digital Arts: https://greatermanchester.ac.uk/subject-areas/creative-and-digital-arts-english-and-creative-writing\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "law",
+      "patterns": ["law", "llb", "law degree", "crime", "criminal justice", "study law", "legal studies", "become a lawyer"],
+      "responses": [
+        "Law at the University of Greater Manchester is engaging, practical and career-focused! ⚖️📚😊\n\n⚖️ **Law & Crime and Criminal Justice at UGM:**\nWe offer programmes that combine legal theory with real-world application, preparing you for careers in law, justice, and beyond.\n\n🌟 **Programmes Include:**\n• LLB Law\n• BA Crime and Criminal Justice\n• Postgraduate Law programmes\n\n🏆 **Why Study Law at UGM?**\n• Expert faculty with legal practice experience\n• Mooting, advocacy and practical skills development\n• Block teaching for focused, in-depth study\n• Strong careers support for aspiring solicitors, barristers and legal professionals\n• Supportive, small class sizes\n\n💼 **Career Paths:**\nGraduates go on to careers in law firms, the criminal justice system, public sector, policy, HR and many other areas!\n\n👉 Law & Crime and Criminal Justice: https://greatermanchester.ac.uk/subject-areas/law-and-crime-and-criminal-justice\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "health_social_care",
+      "patterns": ["health and social care", "social work", "community work", "youth work", "social care degree", "health care", "social worker"],
+      "responses": [
+        "Making a difference in people's lives starts here! 💙🤝😊\n\n❤️ **Health & Social Care, Social Work & Community and Youth at UGM:**\nWe offer programmes that prepare compassionate, skilled professionals to make a real difference!\n\n🌟 **Programmes Include:**\n• BA Health and Social Care\n• BA Social Work\n• BA Community and Youth Work\n• MSc Social Care, Health and Wellbeing\n\n🔬 **Research-Informed Teaching:**\nOur academic team is actively involved in social care and health research. Specialists from the field are regularly invited as guest speakers and lecturers — giving you real-world, live examples of current practice!\n\n🏆 **Why Choose UGM?**\n• Practical placements in real settings\n• Block teaching for focused, progressive learning\n• Supportive, small learning community\n• Strong links with local health and social care organisations\n\n👉 Health & Social Care: https://greatermanchester.ac.uk/subject-areas/health-and-social-care-social-work-and-community-and-youth\n👉 MSc Social Care: https://greatermanchester.ac.uk/course/msc-social-care-health-and-wellbeing-full-time-12-months-university-of-bolton/2025-26\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    },
+    {
+      "tag": "summer_school",
+      "patterns": ["summer school", "summer programme", "summer course", "taster course", "pre-university"],
+      "responses": [
+        "Our Summer School is a fantastic way to get a taste of university life! ☀️🎓😊\n\n🌟 **Summer School at UGM:**\nOur Summer School offers taster sessions and programmes to help you experience university-level study before committing to a full degree — perfect for those considering higher education!\n\nIt's also a great confidence booster and helps you prepare for the step up from school or college.\n\n👉 Summer School: https://greatermanchester.ac.uk/join-us/summer-school\n\nWant to know more? Feel free to ask or contact us at enquiries@greatermanchester.ac.uk! 😊"
+      ]
+    },
+    {
+      "tag": "help_centre",
+      "patterns": ["help centre", "help", "faq", "frequently asked questions", "where can i find answers", "knowledge base", "need help", "support articles"],
+      "responses": [
+        "Our Help Centre is your go-to place for quick, clear answers! 💡😊\n\n📚 **UGM Help Centre:**\nWhether you're exploring your options, applying to join us, or already a student, our Help Centre has clear, up-to-date advice on:\n\n✅ Admissions & applications\n✅ Fees and funding\n✅ Course information\n✅ Student support\n✅ Graduation\n✅ Visa and immigration (international students)\n✅ Timetables, transfers and more!\n\nIt's the quickest way to get the answers you need — all in one place! 🌟\n\n👉 Help Centre: https://knowledge.bolton.ac.uk/\n👉 International Help: https://knowledge.bolton.ac.uk/knowledge/overseas-applications 😊"
+      ]
+    },
+    {
+      "tag": "ranking_awards",
+      "patterns": ["ranking", "rankings", "award", "awards", "rated", "best university", "number one", "top university", "how good is ugm", "reputation", "league table"],
+      "responses": [
+        "We're incredibly proud of what we've achieved — and our students' satisfaction speaks for itself! 🏆🌟😊\n\n🥇 **Our Rankings & Awards:**\n\n🏆 **#1 in the North West for Teaching Quality**\n(The Times and Sunday Times Good University Guide)\n\n🏆 **#1 in the North West for Student Satisfaction**\n(Times and Sunday Times)\n\n🏆 **#1 for Student Satisfaction in the North West** — for **6 consecutive years!**\n(Complete University Guide - North West)\n\n🏆 **#1 for Student Satisfaction in the North West**\n(The Complete University Guide)\n\n🏆 **Top 40 University in the UK**\n(The Guardian 2024)\n\n🏆 **Orlando Village (Accommodation)** — Nominated for multiple awards in 2024 for inclusivity, mental health support and community safety.\n\n🏆 **Peter Marsh Library** — Holds the Customer Service Excellence (CSE) award since 2002.\n\n💬 These rankings reflect our commitment to putting **you** first — with outstanding teaching, support, and a vibrant student community!\n\n👉 Learn more: https://greatermanchester.ac.uk/ 😊"
+      ]
+    },
+    {
+      "tag": "alumni",
+      "patterns": ["alumni", "graduates", "after graduation", "alumni network", "former students", "alumni association", "ugm graduates"],
+      "responses": [
+        "The University of Greater Manchester has a wonderful and growing alumni community! 🎓🌟😊\n\n👥 **UGM Alumni:**\nOnce you graduate, you automatically become a member of the UGM Alumni Association — joining a network of graduates making their mark across the world!\n\n🎁 **Alumni Benefits:**\n• **Alumni Loyalty Discount** — Graduate UGM students who return to do a Masters receive a **£1,000 tuition fee waiver** 🎉\n• Access to alumni events and networking opportunities\n• Continued careers and professional development support\n• Honorary Doctorates awarded to inspiring alumni and public figures\n\n📧 **Alumni Contact:**\nFor alumni enquiries and to connect with the network:\nenquiries@greatermanchester.ac.uk\n\n👉 Alumni page: https://greatermanchester.ac.uk/alumni/\n👉 Honorary Doctorates: https://greatermanchester.ac.uk/more/honorary-doctorates/ 😊"
+      ]
+    },
+    {
+      "tag": "vacancies_jobs",
+      "patterns": ["jobs at ugm", "work at the university", "staff vacancies", "career at ugm", "academic jobs", "university jobs", "vacancies"],
+      "responses": [
+        "Interested in joining our fantastic team? We'd love to hear from you! 😊💼\n\n🏫 **Work at the University of Greater Manchester:**\nWe regularly advertise academic, professional and support roles across the university.\n\n📋 **How to Apply:**\nAll current vacancies are listed on our dedicated jobs portal.\n\n👉 Vacancies: https://jobs.bolton.ac.uk/\n\n📧 For general enquiries about working at UGM:\nenquiries@greatermanchester.ac.uk\n📞 +44 (0)1204 900 600\n\nWe're a forward-thinking, inclusive employer committed to supporting our staff just as much as our students! 🌟"
+      ]
+    },
+    {
+      "tag": "sustainability",
+      "patterns": ["sustainability", "environment", "green", "eco", "environmental policy", "climate", "carbon", "sustainability at ugm"],
+      "responses": [
+        "We're committed to building a greener, more sustainable future! 🌿🌍😊\n\n♻️ **Sustainability at UGM:**\nThe University of Greater Manchester takes environmental sustainability seriously, with policies and initiatives designed to reduce our environmental impact and promote sustainable practices across campus.\n\n🌱 **Our Commitment:**\n• Environmental sustainability policies in place\n• Initiatives to reduce carbon footprint\n• Promoting sustainability awareness across the student and staff community\n\n👉 Environmental Sustainability: https://greatermanchester.ac.uk/governance/policies-and-legal/environmental-sustainability/ 😊"
+      ]
+    },
+    {
+      "tag": "parents_guardians",
+      "patterns": ["parents", "guardians", "teachers", "parent information", "information for parents", "advice for parents", "supporting my child"],
+      "responses": [
+        "We love supporting not just our students, but their families and supporters too! 👨‍👩‍👧😊\n\n👪 **Information for Parents, Guardians & Teachers:**\nWe know that the university application process can be just as exciting (and nerve-wracking!) for families as it is for students. We have dedicated resources to help you support your young person every step of the way!\n\n📋 **What We Cover:**\n• How to support your child through the application process\n• Understanding fees and funding options\n• What university life looks like at UGM\n• Open Day guidance — bring the whole family! 👨‍👩‍👧\n\n🎉 **Open Days:**\nParents and guardians are warmly welcome at all our Open Days — attend with your child and ask all your important questions!\n\n👉 Information for Parents, Guardians & Teachers: https://greatermanchester.ac.uk/information-for-student-supporters\n👉 Open Days: https://greatermanchester.ac.uk/open-days 😊"
+      ]
+    },
+    {
+      "tag": "clearing",
+      "patterns": ["clearing", "ucas clearing", "clearing 2025", "clearing hotline", "what is clearing", "missed my grades", "didn't get my grades"],
+      "responses": [
+        "Don't worry — Clearing is a fantastic opportunity and we're here to help! 🌟😊\n\n📞 **Clearing at UGM:**\nIf you didn't get the grades you expected, or if you're still searching for the right course, Clearing could be perfect for you!\n\n📋 **How it Works:**\n1. Browse available courses on our website before calling\n2. Call our **Clearing Hotline: 0808 281 1111** (free to call!) 📞\n3. We'll discuss your eligibility and you may receive a **verbal offer on the phone!**\n4. You can only apply for one course at a time through Clearing, so check the courses available first\n\n⚠️ **Important:**\nIf you've applied through UCAS this year, do NOT fill in a direct University application form unless specifically asked to by our Clearing team.\n\n🎉 **Clearing Open Events:**\nWe hold dedicated Clearing open events — a Course Advice Day and Open Day — so you can visit campus and find out more!\n\n👉 Direct applicants / Clearing info: https://greatermanchester.ac.uk/join-us/how-to-apply-and-admissions/direct-applicants\n👉 All courses: https://greatermanchester.ac.uk/courses 😊"
+      ]
+    }
+  ]
+}
