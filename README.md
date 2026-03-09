@@ -58,6 +58,14 @@ Upload your study materials and get help:
 └── README.md           # This file
 ```
 
+## Languages & Technologies
+- Python
+- HTML
+- CSS
+- Gradio
+- TF-IDF + Cosine Similarity
+- Llama 3.2 1B Instruct
+
 ## Usage
 
 1. **Normal Chat**: Just type your question about the university
